@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -36,3 +37,11 @@
     transform: rotate(360deg);
   }
 }
+.fontOtomanopee{ font-family: 'Otomanopee One Regular'}
+@font-face {
+  font-family: 'Otomanopee One Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Otomanopee One Regular'), url('../public/Assets/Fonts/OtomanopeeOne-Regular.woff') format('woff');
+  }
+

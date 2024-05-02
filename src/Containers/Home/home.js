@@ -5,6 +5,7 @@ import MainHomeSection from "../../Components/home/firstsection";
 import Primarysection from "../../Components/home/secondsection";
 import Slidersection from "../../Components/home/slidersection";
 import MainFooter from "../../Components/Footer";
+import PreFooter from "../../Components/PreFooter";
 function Home() {
   return (
       <>
@@ -12,7 +13,10 @@ function Home() {
 <div><MainHomeSection/></div>
 <div><Primarysection/></div>
 <div><Slidersection/></div>
+
+<PreFooter/>
 <div><MainFooter/></div>
+
     </>
   );
 }

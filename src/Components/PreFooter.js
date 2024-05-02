@@ -3,13 +3,11 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { button, ul } from "react-bootstrap";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import Aboutus from "../contianers/about/about";
-import Home from "../contianers/home/home";
  function PreFooter (){
     return (
       <div className="row  homepref justify-content-between ">
         <div className=" col-md-7 col-12 p-4 ">
-          <h3 className="text-start px-5 pt-5">
+          <h3 className="text-start px-5 pt-5 fontOtomanopee  ">
             Ready to take your business to the next level?{" "}
           </h3>
           <p className="small text-start px-5">

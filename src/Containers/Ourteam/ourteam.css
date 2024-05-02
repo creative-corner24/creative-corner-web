@@ -1,0 +1,42 @@
+/* .member{
+
+} */
+
+.memberdata{
+ padding: 1% 10%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+.linkinic{color: blue;}
+
+.mobiedit{font-size:large !important;
+margin-top: 2% !important;}
+
+
+
+ /* For Tablet View */
+ @media screen and (min-device-width: 768px) 
+ and (max-device-width: 1024px) {
+   *{overflow-x: hidden;}
+
+  
+   
+ }
+ 
+ 
+ 
+ /* For Mobile Phones Portrait or Landscape View */
+ @media screen
+   and (max-device-width: 640px) {
+     *{overflow-x: hidden;}
+
+
+     .mobiedit{font-size: x-small;
+        text-align: left !important;}
+   
+   }
+
+
+
+

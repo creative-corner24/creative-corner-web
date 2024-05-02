@@ -1,0 +1,63 @@
+
+.secondsection{background-color: rgb(194, 231, 251 , 0.5);
+    height: 100%;
+border: none;
+border-radius: 150px;}
+
+.flwla{width: 100%;}
+.manimg {    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+margin-top: 2%;
+margin-bottom: 2%;}
+
+.leftbord{ border-left-style: solid;
+    border-color: #8ac4de;}
+    .rightbord{ border-right-style: solid;
+  border-color: #8cc4dc;}
+
+
+  .whyusbackground{
+    background-image: url(../../Components/about/images/Frame\ 72.png) ; 
+    background-size:cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .whyimg{
+    width: 100%;
+  }
+  .coloredlist{
+    margin-bottom: 1%;
+    font-weight: bolder;
+    list-style-type: disc;
+    color: blue;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* For Tablet View */
+@media screen and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+  *{overflow-x: hidden;}
+   
+  /* .secondsectiontext{ font-size: small !important;} */
+}
+
+
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+  and (max-device-width: 640px) {
+    *{overflow-x: hidden;}
+
+  
+  }

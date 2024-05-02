@@ -9,6 +9,9 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
       <div className="MainFooter">
 
+<div className="text-center my-5">  <img src="../../Assets/01.png"   width="180"
+              height="40"
+              className="d-inline-block align-top  logoo"/> </div>
 
         <div className=" foot mb-5">
           <Link className="firstlink m-4  text-white"  to="/about">about</Link>
