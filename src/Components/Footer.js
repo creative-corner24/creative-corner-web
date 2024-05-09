@@ -18,7 +18,6 @@ import { Navbar, Nav, Container } from "react-bootstrap";
           <Link className="firstlink m-4  text-white " to="/Home">Home</Link>
           <Link className="firstlink m-4  text-white " to="/services">Services</Link>
           <Link className="firstlink m-4  text-white" to="/our-team">Our team</Link>
-          <Link className="firstlink m-4  text-white" to="/portoflio">Portoflio</Link>
 
 
         </div>
