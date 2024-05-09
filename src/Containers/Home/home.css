@@ -88,6 +88,7 @@
 .cardbutton {
  
   border-color: rgb(137, 153, 153, .5);
+  font-size: large;
   width: 70%;
   color: black;
   background-color: rgb(240, 248, 255, 0.6);
@@ -118,15 +119,19 @@
 
         /* likecard section */
 .likecard{
+  border-color: #062e3f;
+  border-width: 1px;
+  border-style: solid;
   border-radius: 20px;
   background-color:rgb(169, 169, 169,0.1) ;}
 
-.rowcard{padding: 5% 3%;
+.rowcard{padding: 3% 3%;
 position: relative;}
 .cardcol{  border-right-style: solid;
+  border-right-width: 1px;
   border-color: #062e3f;
 }
-.trian{color: #4c65c9;
+.trian{color: #419bc4;
 font-weight: bold;}
 
 .cardico{ 

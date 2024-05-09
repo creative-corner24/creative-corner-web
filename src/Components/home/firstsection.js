@@ -134,26 +134,25 @@ Strategy"
           position-absolute top-0 start-100 translate-middle 
            "
           /> </div>
-          <div className="col-md-6 cardcol pt-4">
-            <h6 className="mb-5">
+          <div className="col-md-7 cardcol pe-4">
+            <h4 className="mb-5">
               <i className="bi bi-caret-right-fill trian"></i>IF you want to stop wasting
               time and money on flashy campaigns that look good but generate
               zero sales
-            </h6>
-            <h6 className="mb-5">
+            </h4>
+            <h4 className="mb-5">
               <i className="bi bi-caret-right-fill trian"></i>IF you want to get the most
               out of your team and budget
-            </h6>
-            <h6 className="">
+            </h4>
+            <h4 className="">
               <i className="bi bi-caret-right-fill trian"></i>IF you are serious about
               growing your business
-            </h6>
+            </h4>
           </div>
-          <div className="col-md-1 "></div>
           
           <div className="col-md-5 "
           >
-            <div className="position-relative ">
+            <div className="position-relative  px-5">
            
               
               <img className="img-fluid " src={cardim} />

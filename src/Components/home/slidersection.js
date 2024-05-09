@@ -39,7 +39,7 @@ function Slidersection() {
           modules={[Navigation, Pagination]}
           className=" myswiper"
         >
-          <SwiperSlide>
+          <SwiperSlide className="my-4">
           
             
               <img src={sllid} 
@@ -79,7 +79,7 @@ function Slidersection() {
         <Texttestimonal />
       </div>
       <div className="bg-light">
-      <h1 className="text-center  fontOtomanopee">Clients Reviews</h1>
+      <h1 className="text-center  fontOtomanopee pt-3">Clients Reviews</h1>
 
         <Swiper
           onSwiper={setSwiperRef}
@@ -94,7 +94,7 @@ function Slidersection() {
           modules={[Navigation, Pagination]}
           className="myswiper"
         >
-          <SwiperSlide>
+          <SwiperSlide >
             <div className="sliderdiv">
               <img src={slllid} className="roundimg " />
               <p className=" px-3">

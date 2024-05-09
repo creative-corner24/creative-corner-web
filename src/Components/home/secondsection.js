@@ -9,7 +9,7 @@ function Primarysection() {
       </h4>
       <div className="row  justify-content-between pt-5  ">
 
-        <div className=" col-md-6 col-12 mt-5 pt-5  ">
+        <div className=" col-md-7 col-12 mt-5 pt-5  ">
 
         <h3 className="text-start text-white Nunito ">
               Mobile applications are specialize in crafting innovative and
@@ -28,7 +28,7 @@ function Primarysection() {
             lasting impact on your audience. "
           </p>
         </div>
-        <div className=" col-md-6 col-12 ">
+        <div className=" col-md-5 col-12 ">
           <img
             src="../../Assets/Nokia XR21.png"
             class="img-thumbnail "
@@ -39,14 +39,14 @@ function Primarysection() {
 
       <div className="row  justify-content-between  py-5 ">
 
-        <div className=" col-md-6 col-12 ">
+        <div className=" col-md-5 col-12 ">
           <img
             src="../../Assets/Nokia XRd21.png"
             class="img-thumbnail "
             alt="hi "
           />
         </div>
-        <div className=" col-md-6 col-12   mt-5 pt-5 Nunito ">
+        <div className=" col-md-7 col-12   mt-5 pt-5 Nunito ">
           
         <h3 className="text-start text-white   ">
             UI/UX Design, creating seamless and intuitive experiences for users{" "}

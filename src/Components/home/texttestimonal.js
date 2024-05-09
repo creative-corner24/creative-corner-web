@@ -22,7 +22,7 @@ import client6 from "./images/Ellipse 18.png";
     return (
      <>
             <h1 className="text-center my-5  fontOtomanopee ">Client Testimonials</h1>
-            <div className=" my-5 ">
+            <div className=" my-3 ">
             <Swiper
           onSwiper={setSwiperRef}
           slidesPerView={6}
@@ -36,35 +36,35 @@ import client6 from "./images/Ellipse 18.png";
           modules={[Navigation, Pagination]}
           className=" myswiper"
         >
-          <SwiperSlide>
+          <SwiperSlide className="my-5">
           
             
           <img src={client1} 
          />
     
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="my-5">
         
           <img src={client2} />
         
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="my-5">
         
           <img src={client3} />
         
       </SwiperSlide>
 
-      <SwiperSlide>
+      <SwiperSlide className="my-5">
         
           <img src={client4} />
         
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="my-5">
         
           <img src={client5} />
         
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="my-5">
         
           <img src={client6} />
         
