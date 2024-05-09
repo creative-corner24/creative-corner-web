@@ -10,7 +10,7 @@ function Headerslider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../Assets/first.jpg"
+          src="../../Assets/first.png"
           alt="First slide"
         />
         <Carousel.Caption ClassName="captioni">
@@ -23,19 +23,23 @@ function Headerslider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../Assets/second.jpg"
+          src="../../Assets/second.png"
           alt="Second slide"
         />
-        <Carousel.Caption  ClassName="captioni" >
+        <Carousel.Caption  ClassName="captioni " >
         <h3 className="fontOtomanopee"  >
-        At Creative Corner for Marketing We see ourselves as your partner of success
-          </h3>
+        In the corner 
+of creativity,           </h3>
+<p></p>
+        {/* <Button   as={Link} to="/Contact"  className="ms-5  bg-info">Get IN Touch</Button> */}
+
+
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../Assets/third.jpg"
+          src="../../Assets/third.png"
           alt="Third slide"
         />
         <Carousel.Caption  ClassName="captioni">

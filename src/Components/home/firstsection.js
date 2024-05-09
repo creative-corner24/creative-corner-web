@@ -12,6 +12,7 @@ import icon5 from "./images/lon.png"
 import icoon from "./images/2.png";
 import cardim from "./images/card.png";
 import free from "./images/Group 6.png";
+import Vedisection from "./vediosection";
 
 function MainHomeSection() {
   return (
@@ -47,6 +48,17 @@ function MainHomeSection() {
           />
         </div>
       </div>
+      <section class="video-section">
+  <video autoplay muted loop id="video-background"
+     src="./images/vedio.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="content">
+    Your content here 
+  </div>
+</section>
+
+<Vedisection/>
 
       {/* SECONDPART-PROPS */}
 
