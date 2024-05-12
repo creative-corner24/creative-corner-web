@@ -20,11 +20,11 @@ function MainHomeSection() {
       {/* PART1 */}
 
       <div className="row  justify-content-between mb-4 ">
-        <div className=" col-md-5 col-12 ">
-          <h3 className="text-start  fontOtomanopee">
+        <div className=" col-md-5  col-12  mt-5">
+          <h3 className="text-start  mt-3 fontOtomanopee">
             Creative Corner | for Marketing Solutions & Development Services{" "}
           </h3>
-          <p className=" text-start fs-5 ">
+          <p className=" text-start  text-black-50 fs-5  mt-2">
             At{" "}
             <a href="" className="firstlink">
               Creative Corner
@@ -38,7 +38,6 @@ function MainHomeSection() {
             services.{" "}
           </p>
         </div>
-        <div className=" col-md-1 col-12 "></div>
 
         <div className=" col-md-5 col-12 ">
           <img
@@ -48,7 +47,7 @@ function MainHomeSection() {
           />
         </div>
       </div>
-      <section class="video-section">
+      {/* <section class="video-section">
   <video autoplay muted loop id="video-background"
      src="./images/vedio.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
@@ -58,14 +57,14 @@ function MainHomeSection() {
   </div>
 </section>
 
-<Vedisection/>
+<Vedisection/> */}
 
       {/* SECONDPART-PROPS */}
 
       <div className="row py-5">
-        <div className="col-md-6">
+        <div className="col-md-7 mt-4">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-5">
               <SECONDPART
                 img={thrd}
                 text="Production Services"
@@ -73,7 +72,7 @@ function MainHomeSection() {
                 text2="here imagination meet expertise in our creative production services...."
               />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <SECONDPART
                 img={secd}
                 text="Digital Marketing
@@ -84,7 +83,7 @@ Strategy"
             </div>
           </div>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-5">
               <SECONDPART
                 img={secd}
                 text="Social Media 
@@ -93,7 +92,7 @@ Strategy"
                 text2="The platforms on which  build social networks and share informa..."
               />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <SECONDPART
                 img={frst}
                 text="Mobile and Web 
@@ -104,11 +103,11 @@ Strategy"
             </div>
           </div>
         </div>
-        <div className="col-md-6 pt-5 mt-5 text-start px-5">
-          <h4 className="mt-4">Services</h4>
-          <h1 className="mt-4 fontOtomanopee  ">Our Services</h1>
+        <div className="col-md-5 pt-5 mt-5 text-start px-3">
+          <h4 className="mt-4">Discover</h4>
+          <h1 className="mt-4 text-primary  fontOtomanopee  ">Our Services</h1>
           <h4 className="mt-4">include...</h4>
-          <p className="mt-4">
+          <p className="mt-4 text-black-50">
             At Creative Corner, we offer a range of services to help businesses
             stand out in the digital world. From captivating designs to
             effective marketing strategies, we have the expertise to bring your

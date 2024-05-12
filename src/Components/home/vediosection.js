@@ -4,7 +4,7 @@ import { Container, video } from "react-bootstrap";
 function  Vedisection(){
     return (
       <div className=" container fluid ">
-        <video
+        {/* <video
           width="400"
           autoPlay="autoplay"
           loop="loop"
@@ -16,7 +16,7 @@ function  Vedisection(){
           {" "}
           We believe in the power of creativity to transform ideas into
           unforgettable experiences
-        </h1>
+        </h1> */}
       </div>
     );
   }
