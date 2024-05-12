@@ -47,24 +47,15 @@ function MainHomeSection() {
           />
         </div>
       </div>
-      {/* <section class="video-section">
-  <video autoplay muted loop id="video-background"
-     src="./images/vedio.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-  </video>
-  <div class="content">
-    Your content here 
-  </div>
-</section>
 
-<Vedisection/> */}
+<Vedisection/>
 
       {/* SECONDPART-PROPS */}
 
       <div className="row py-5">
         <div className="col-md-7 mt-4">
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-4">
               <SECONDPART
                 img={thrd}
                 text="Production Services"
@@ -72,7 +63,7 @@ function MainHomeSection() {
                 text2="here imagination meet expertise in our creative production services...."
               />
             </div>
-            <div className="col-md-5">
+            <div className="col-md-4">
               <SECONDPART
                 img={secd}
                 text="Digital Marketing
@@ -83,7 +74,7 @@ Strategy"
             </div>
           </div>
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-4">
               <SECONDPART
                 img={secd}
                 text="Social Media 
@@ -92,7 +83,7 @@ Strategy"
                 text2="The platforms on which  build social networks and share informa..."
               />
             </div>
-            <div className="col-md-5">
+            <div className="col-md-4">
               <SECONDPART
                 img={frst}
                 text="Mobile and Web 
@@ -103,9 +94,9 @@ Strategy"
             </div>
           </div>
         </div>
-        <div className="col-md-5 pt-5 mt-5 text-start px-3">
+        <div className="col-md-5    ">
           <h4 className="mt-4">Discover</h4>
-          <h1 className="mt-4 text-primary  fontOtomanopee  ">Our Services</h1>
+          <h1 className="mt-4 ourser  fontOtomanopee  ">Our Services</h1>
           <h4 className="mt-4">include...</h4>
           <p className="mt-4 text-black-50">
             At Creative Corner, we offer a range of services to help businesses
@@ -125,14 +116,18 @@ Strategy"
         </div>
       </div>
 
+
       <div className=" likecard">
+        
         <div className="row rowcard">
+        
         <div className="position-relative ">
         <img src={free}
           className="
-          position-absolute top-0 start-100 translate-middle 
+           frree
            "
-          /> </div>
+          />
+        </div>
           <div className="col-md-7 cardcol pe-4">
             <h4 className="mb-5">
               <i className="bi bi-caret-right-fill trian"></i>IF you want to stop wasting
@@ -151,20 +146,17 @@ Strategy"
           
           <div className="col-md-5 "
           >
-            <div className="position-relative  px-5">
+            
            
-              
-              <img className="img-fluid " src={cardim} />
-              
-              <div className=" position-absolute top-0">
+              <div className=" position-relative top-0 mx-5  cardim ">
             
                 <img className="cardico" src={icon5} />
-                <h4 className="cardtex text-light">
+                <h4 className="cardtex   text-light">
                   Schedule a free meeting with our experts now!
                 </h4>
                 <a
                   href="/Services"
-                  className="btn  ms-4 cardbutton "
+                  className="btn  ms-4 cardbuttton "
                   role="button"
                   aria-pressed="true"
                 >
@@ -176,7 +168,6 @@ Strategy"
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

@@ -3,7 +3,7 @@ function Primarysection() {
   return (
     <div className="  Primarysection  ">
       <div className="container py-3 ">
-      <h1 className="text-primary  fontOtomanopee  pt-5">Result you can count on</h1>
+      <h1 className="  Result fontOtomanopee  pt-5">Result you can count on</h1>
       <h4 className="text-light ">
         Here we should put our last successful works
       </h4>
@@ -11,7 +11,7 @@ function Primarysection() {
 
         <div className=" col-md-7 col-12 mt-5 pt-5  ">
 
-        <h3 className="text-start text-white Nunito ">
+        <h3 className="text-start text-white  ">
               Mobile applications are specialize in crafting innovative and
               user-friendly
             </h3>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import "./services.css";
 import FirstSection from "../../Components/standersection/first";
 import SecondSection from "../../Components/standersection/second";
@@ -16,6 +17,7 @@ function Services() {
           text="Services"
           text2="Dynamic Digital Solutions: Crafting Your Vision with Expertise"
         />
+        
       </div>
 
       <div className="mt-3">

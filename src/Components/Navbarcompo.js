@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
@@ -6,7 +6,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-function Navbarcompo()  {
+function Navbarcompo() {
+  // State variable to control the expanded state of the Navbar
+  const [expanded, setExpanded] = useState(false);
+
+  // Function to toggle the state between true and false
+  const handleToggle = () => {
+    setExpanded(!expanded);
+  };
+ 
     return (
 
     <Navbar expand="lg"  className=" navbar  navbar fixed-top navbar-dark bg-dark  bg-opacity-50">
@@ -19,7 +27,8 @@ function Navbarcompo()  {
               className="d-inline-block align-top  logoo"
               alt="logo"
             />
-          </Navbar.Brand>        <Navbar.Toggle aria-controls="navbarScroll" />
+          </Navbar.Brand>    
+          <Navbar.Toggle aria-controls="navbarScroll" onClick={handleToggle} />
         <Navbar.Collapse id="navbarScroll"
         className="  d-flex flex-row-reverse
         ">
@@ -44,3 +53,12 @@ function Navbarcompo()  {
   };
   
   export default Navbarcompo;
+
+
+  
+     
+
+   
+  
+     
+  

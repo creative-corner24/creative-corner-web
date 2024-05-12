@@ -13,9 +13,13 @@ margin-top: 2%;
 margin-bottom: 2%;}
 
 .leftbord{ border-left-style: solid;
-    border-color: #8ac4de;}
+  border-image: linear-gradient(#1E4F9E
+  , #B5D1FF
+  ) 30;}
     .rightbord{ border-right-style: solid;
-  border-color: #8cc4dc;}
+      border-image: linear-gradient(#1E4F9E
+      , #B5D1FF
+      ) 30;}
 
 
   .whyusbackground{
@@ -26,18 +30,20 @@ margin-bottom: 2%;}
     background-repeat: no-repeat;
   }
   .whyimg{
-    width: 100%;
+    width: 80%;
   }
   .coloredlist{
     margin-bottom: 1%;
     font-weight: bolder;
     list-style-type: disc;
-    color: blue;
+    color: #1E4F9E
+    ;
   }
 
 
 
-
+.Nunito{color:rgb(3, 8, 16,0.7)
+  !important ;}
 
 
 

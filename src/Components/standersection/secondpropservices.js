@@ -26,31 +26,31 @@ const AnomationServices2 = (props) => {
               <h5 className="lifrtex">
                 <span className="rounbackground">{props.iconname1}</span> {props.lifrtex1}
               </h5>
-              <p className="lisectex px-5">{props.lisectex1}</p>
+              <p className="lisectex px-5 Nunito text-black-50 ">{props.lisectex1}</p>
             </li>
             <li>
             <h5 className="lifrtex">
             <span className="rounbackground">{props.iconname2}</span>
             {props.lifrtex2}</h5>
-              <p className="lisectex px-5">{props.lisectex2}</p>
+              <p className="lisectex px-5  Nunito text-black-50  ">{props.lisectex2}</p>
             </li>
             <li>
             <h5 className="lifrtex">
             <span className="rounbackground">{props.iconname3}</span>
             {props.lifrtex3}</h5>
-              <p className="lisectex px-5">{props.lisectex3}</p>
+              <p className="lisectex px-5   Nunito text-black-50">{props.lisectex3}</p>
             </li>
             <li>
             <h5 className="lifrtex">
             <span className="rounbackground">{props.iconname4}</span>
               {props.lifrtex4}</h5>
-              <p className="lisectex px-5">{props.lisectex4}</p>
+              <p className="lisectex px-5  Nunito text-black-50">{props.lisectex4}</p>
             </li>
             <li>
             <h5 className="lifrtex">
             <span className="rounbackground">{props.iconname5}</span>
               {props.lifrtex5}</h5>
-              <p className="lisectex px-5">{props.lisectex5}</p>
+              <p className="lisectex px-5  Nunito text-black-50 ">{props.lisectex5}</p>
             </li>
             
           </ul>

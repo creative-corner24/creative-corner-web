@@ -14,15 +14,15 @@ function Headerslider() {
           alt="First slide"
         />
        <div class="content">
-          <h1>In the corner of creativity, </h1>
-          <h6>
+          <h1 className="mt-3">In the corner of creativity, </h1>
+          <h6 className="mt-3" >
             Ideas flourish, dreams take shape, and innovation knows no
             boundaries ’’Creative Corner’’
           </h6>
-          <Button as={Link} to="/Contact" className="ms-5 mt-3  bg-primary">
+          <Button as={Link} to="/Contact" className="ms-5 mt-3 px-5 bg-primary">
             Get in Touch
           </Button>
-          <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent  outline-light   ">
+          <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent  btn-outline-light    ">
             Learn More
           </Button>
         </div>
@@ -35,15 +35,15 @@ function Headerslider() {
         />
 
         <div class="content">
-          <h1>In the corner of creativity, </h1>
-          <h6>
+          <h1 className="mt-3">In the corner of creativity, </h1>
+          <h6 className="mt-3">
             Ideas flourish, dreams take shape, and innovation knows no
             boundaries ’’Creative Corner’’
           </h6>
-          <Button as={Link} to="/Contact" className="ms-5 mt-3  bg-primary">
+          <Button as={Link} to="/Contact" className="ms-5 mt-3  px-5 bg-primary">
             Get in Touch
           </Button>
-          <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent">
+          <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent  btn-outline-light ">
             Learn More
           </Button>
         </div>
@@ -55,15 +55,15 @@ function Headerslider() {
           alt="Third slide"
         />
        <div class="content">
-          <h1>In the corner of creativity, </h1>
-          <h6>
+          <h1 className="mt-3">In the corner of creativity, </h1>
+          <h6 className="mt-3">
             Ideas flourish, dreams take shape, and innovation knows no
             boundaries ’’Creative Corner’’
           </h6>
-          <Button as={Link} to="/Contact" className="ms-5 mt-3  bg-primary">
+          <Button as={Link} to="/Contact" className="ms-5 mt-3 px-5 bg-primary">
             Get in Touch
           </Button>
-          <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent   outline-light  ">
+          <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent   btn-outline-light  ">
             Learn More
           </Button>
         </div>

@@ -67,7 +67,7 @@ function OurServices() {
               <CardServices
                 imgicon={iconim3}
                 text="Social Media 
-                Markting"
+                Marketing"
               />
             </Button>
           </div>

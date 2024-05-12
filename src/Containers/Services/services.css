@@ -45,12 +45,13 @@ margin-right: 3%;}
   }
   
   .circleimo {
-    height: 70%;
-    width: 70%; /* Make the image fill the container */
+    height: 100% !important;
+    width: 70% !important; /* Make the image fill the container */
     display: block;
     position: absolute;
     left: -10%; /* Position the image to the left so only half is visible */
   }
+  
 
   /* qeastion */
 
