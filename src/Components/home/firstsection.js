@@ -12,14 +12,14 @@ import icon5 from "./images/lon.png"
 import icoon from "./images/2.png";
 import cardim from "./images/card.png";
 import free from "./images/Group 6.png";
-import Vedisection from "./vediosection";
+import Vedisection from "../vediosection";
 
 function MainHomeSection() {
   return (
-    <div className="MAINSECTION  p-5">
+    <div className="MAINSECTION  py-5">
       {/* PART1 */}
 
-      <div className="row  justify-content-between mb-4 ">
+      <div className="row  justify-content-between mb-4 px-5">
         <div className=" col-md-5  col-12  mt-5">
           <h3 className="text-start  mt-3 fontOtomanopee">
             Creative Corner | for Marketing Solutions & Development Services{" "}
@@ -42,7 +42,7 @@ function MainHomeSection() {
         <div className=" col-md-5 col-12 ">
           <img
             src="../../Assets/12.png"
-            class="img-thumbnail h-100 "
+            class="img-thumbnaill  "
             alt="hi "
           />
         </div>
@@ -52,7 +52,7 @@ function MainHomeSection() {
 
       {/* SECONDPART-PROPS */}
 
-      <div className="row py-5">
+      <div className="row p-5">
         <div className="col-md-7 mt-4">
           <div className="row">
             <div className="col-md-4">
@@ -94,7 +94,7 @@ Strategy"
             </div>
           </div>
         </div>
-        <div className="col-md-5    ">
+        <div className="col-md-5 my-auto  ">
           <h4 className="mt-4">Discover</h4>
           <h1 className="mt-4 ourser  fontOtomanopee  ">Our Services</h1>
           <h4 className="mt-4">include...</h4>
@@ -117,9 +117,9 @@ Strategy"
       </div>
 
 
-      <div className=" likecard">
+      <div className=" likecard m-5">
         
-        <div className="row rowcard">
+        <div className="row rowcard ">
         
         <div className="position-relative ">
         <img src={free}

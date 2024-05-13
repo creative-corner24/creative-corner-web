@@ -14,10 +14,8 @@ console.log("props", props)
                       
                     />
                     <div >
-            <h1 className="position-absolute bottom-50 start-50 translate-middle text-light  " >{props.text}</h1>
-            <Button as={Link} to="/Contact" className="ms-5 mt-3 px-5 bg-primary">
-            Get in Touch
-          </Button>
+            <h2 className="position-absolute bottom-50 start-50 translate-middle text-light  " >{props.text}</h2>
+           
             <p className=" m-4 position-absolute top-50 start-50 translate-middle  text-light" >{props.text2}</p>
             </div>
         </div>

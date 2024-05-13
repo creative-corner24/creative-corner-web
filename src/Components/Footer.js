@@ -26,25 +26,49 @@ import { Navbar, Nav, Container } from "react-bootstrap";
           <ul className="Foote ml-auto text-light d-inline-block w-100">
 
             <li className="footer-item d-inline-block">
+            <Link to="https://www.facebook.com/profile.php?id=61556802279602
+" target="_blank" className="text-light">
               <i className="bi bi-facebook fa-1x mx-3 mt-4" id="logo" />
+              </Link>
             </li>
             <li className="footer-item d-inline-block ">
+            <Link to="https://twitter.com/CreativeTech_SA
+" target="_blank" className="text-light">
               <i className="bi bi-twitter fa-1x mx-3 mt-4" id="logo" />
+              </Link>
             </li>
             <li className="footer-item d-inline-block ">
+            <Link to="https://www.instagram.com/creativetech_sa?igsh=MWlvb3B4eWM0d2V4dA==
+
+" target="_blank" className="text-light">
               <i className="bi bi-instagram fa-1x mx-2 " id="logo" />
+              </Link>
             </li>
             <li className="footer-item d-inline-block ">
+            <Link to="https://www.linkedin.com/company/creative-corner-tech/
+
+" target="_blank" className="text-light">
               <i className="bi bi-linkedin fa-1x mx-3 mt-4" id="logo" />
+              </Link>
             </li>
             <li className="footer-item d-inline-block ">
+            <Link to="https://www.youtube.com/channel/UCfgmC6NoXQAIFcg7X1CIvkg
+" target="_blank" className="text-light">
               <i className="bi bi-youtube fa-1x mx-3 mt-4" id="logo" />
+              </Link>
             </li>
             <li className="footer-item d-inline-block ">
+            <Link to="https://www.tiktok.com/@creativetech_sa?_t=8lop7IJU3yn&_r=1
+
+" target="_blank" className="text-light">
               <i className="bi bi-tiktok fa-1x mx-3 " id="logo" />
+              </Link>
             </li>
             <li className="footer-item d-inline-block ">
+            <Link to="https://t.snapchat.com/jle8iv3f
+" target="_blank" className="text-light">
               <i className="bi bi-snapchat fa-1x mx-3 " id="logo" />
+              </Link>
             </li>
           </ul>
         </div>

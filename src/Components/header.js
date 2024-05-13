@@ -19,7 +19,7 @@ function Headerslider() {
             Ideas flourish, dreams take shape, and innovation knows no
             boundaries ’’Creative Corner’’
           </h6>
-          <Button as={Link} to="/Contact" className="ms-5 mt-3 px-5 bg-primary">
+          <Button as={Link} to="/Contact" className="ms-5 mt-3 px-5 butncolo">
             Get in Touch
           </Button>
           <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent  btn-outline-light    ">
@@ -40,7 +40,7 @@ function Headerslider() {
             Ideas flourish, dreams take shape, and innovation knows no
             boundaries ’’Creative Corner’’
           </h6>
-          <Button as={Link} to="/Contact" className="ms-5 mt-3  px-5 bg-primary">
+          <Button as={Link} to="/Contact" className="ms-5 mt-3  px-5 butncolo">
             Get in Touch
           </Button>
           <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent  btn-outline-light ">
@@ -60,7 +60,7 @@ function Headerslider() {
             Ideas flourish, dreams take shape, and innovation knows no
             boundaries ’’Creative Corner’’
           </h6>
-          <Button as={Link} to="/Contact" className="ms-5 mt-3 px-5 bg-primary">
+          <Button as={Link} to="/Contact" className="ms-5 mt-3 px-5 butncolo">
             Get in Touch
           </Button>
           <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent   btn-outline-light  ">
