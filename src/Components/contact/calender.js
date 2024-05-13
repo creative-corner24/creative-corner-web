@@ -38,7 +38,7 @@ function Calender() {
           </h1>
           
           </div>
-          <div className="col-md-1" >   <img src={freee} alt="Description of the image" fluid /></div>
+          {/* <div className="col-md-1" >   <img src={freee} alt="Description of the image" fluid /></div> */}
         </div>
         <div className="col-md-6 text-center my-5 rightb ">
           <p>
