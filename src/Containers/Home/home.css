@@ -1,24 +1,56 @@
 
-
-.fontlink{font-family: "Lugrasimo", cursive !important;
-  font-weight: 400 !important;
-  font-style: normal !important;  }
-
-
 /* NAVBAR */
+.logoo{padding-left: 15%;}
+.nav-link{font-weight:500;}
 .nav-link:hover {
   border-bottom: 3px solid #52B1DA
   ;
 }
-.butncolo{ background-image: radial-gradient(#2189B6
 
-  ,#4EAAD1);
+.nav-link:active {
+  border-bottom: 3px solid #52B1DA
+  ;
+}
+
+
+.butncolo{   background-image: linear-gradient(to right, #54B3DC
+  , #1E87B4
+  );
   border: none;
+  margin-right: 9%;
   }
 
 /* HEADER */
 
+.header1tex{font-size: 44px;
+  line-height: 1.1;
+font-weight: bolder;}
+.header2texP{font-size: 30px;}
+
+
+.content {
+  width: 40%;
+  position: absolute;
+  top: 50% !important ;
+  left: 23% !important ;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensure content is above the video */
+  text-align: left;
+  color: #fff; /* Set text color */
+}
+.butncolo1 {  margin-top: 4%;
+  background-image: radial-gradient(#2189B6
+
+  ,#4EAAD1);
+  border: none;   margin-top: 4%;
+  padding: 1.5% 7%;
+  font-size: 17px !important;
+}
+  .butncolo2 {margin-top: 4%;
+    padding: 1.5% 3%;}
+
 /* first section */
+
 /* PART1 */
 .MAINSECTION {
   background-image: url(../../../public/Assets/background.png);
@@ -71,18 +103,6 @@ video {
   text-align: center;
   transform: translate(-50%, -50%);
 
-}
-
-
-.content {
-  width: 30%;
-  position: absolute;
-  top: 50% !important ;
-  left: 20% !important ;
-  transform: translate(-50%, -50%);
-  z-index: 1; /* Ensure content is above the video */
-  text-align: center;
-  color: #fff; /* Set text color */
 }
 
 /* vedio secion */
@@ -309,22 +329,109 @@ margin-bottom: 4%; border-color: rgb(137, 153, 153, .5);
 
 
 
-
-
-
-
 /* media qauiry */
 
-/* For Desktop View */
-@media screen and (min-width: 1024px) {
-  
+/* media qauiry */
+@media screen and (min-width: 1440px) {
+  /* NavBar */
+.logoo{padding-left: 36%;}
+.butncolo{  
+  margin-right: 15%;
+  }
+
+/* Header */
+  .header1tex{font-size: 74px;
+  font-weight: bolder;}
+  .header2tex{font-size: 18px;}
+.content {
+  width: 70%;
+  position: absolute;
+  top: 50% !important ;
+  left: 40% !important ;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensure content is above the video */
+  text-align: left;
+  color: #fff; /* Set text color */
 }
+.butncolo1 {  
+  border-radius: 20px;
+}
+  .butncolo2 {  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* For Tablet View */
 @media screen and (min-device-width: 768px) 
   and (max-device-width: 1024px) {
-   .content{padding-left: 10%;
-    width: 60% !important;}
+   
+      /* NavBar */
+.logoo{padding-left: 25%;}
+.butncolo{  
+  margin-right: 10%;
+  }
+
+/* Header */
+  .header1tex{font-size: 40px;
+  font-weight: bolder;}
+  .header2tex{font-size: 13px;}
+.content {
+  width: 50%;
+  position: absolute;
+  top: 50% !important ;
+  left: 30% !important ;
+
+}
+.butncolo1 {  
+  margin-top: 3%;
+  border-radius: 15px;
+}
+  .butncolo2 {   margin-top: 3%;
+
+     border-radius: 15px;
+}
+
+
+
 
     .covericon{
       
@@ -366,11 +473,9 @@ margin-bottom: 4%; border-color: rgb(137, 153, 153, .5);
 /* For Mobile Phones Portrait or Landscape View */
 @media screen
 
-    and (max-device-width: 640px) {
-      .content{margin : 5%;
-        width: 80% !important;}
-
-      .captioni {font-size: small !important;}
+    and (max-device-width:768) {
+     
+      .logoo{padding-left: 5%;}
 
       .cardico{ 
         width: 40%;

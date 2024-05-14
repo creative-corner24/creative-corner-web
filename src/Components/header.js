@@ -6,23 +6,30 @@ import { Link } from "react-router-dom";
 
 function Headerslider() {
   return (
-    <Carousel data-bs-theme="white">
+    <Carousel controls={false}    data-bs-theme="white">
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="../../Assets/first.png"
           alt="First slide"
         />
-       <div class="content">
-          <h1 className="mt-3">In the corner of creativity, </h1>
-          <h6 className="mt-3" >
-            Ideas flourish, dreams take shape, and innovation knows no
-            boundaries ’’Creative Corner’’
-          </h6>
-          <Button as={Link} to="/Contact" className="ms-5 mt-3 px-5 butncolo">
+        <div class="  content">
+          <p className="header1tex ">
+            In the corner <br />
+            of creativity,{" "}
+          </p>
+          <p className="header2tex">
+            Ideas flourish, dreams take shape,
+            <br /> and innovation knows no boundaries ’’Creative <br /> Corner’’
+          </p>
+          <Button as={Link} to="/Contact" className="  butncolo1">
             Get in Touch
           </Button>
-          <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent  btn-outline-light    ">
+          <Button
+            as={Link}
+            to="/Services"
+            className="ms-3    bg-transparent   btn-outline-light butncolo2  "
+          >
             Learn More
           </Button>
         </div>
@@ -34,16 +41,23 @@ function Headerslider() {
           alt="Second slide"
         />
 
-        <div class="content">
-          <h1 className="mt-3">In the corner of creativity, </h1>
-          <h6 className="mt-3">
-            Ideas flourish, dreams take shape, and innovation knows no
-            boundaries ’’Creative Corner’’
-          </h6>
-          <Button as={Link} to="/Contact" className="ms-5 mt-3  px-5 butncolo">
+<div class="  content">
+          <p className="header1tex ">
+            In the corner <br />
+            of creativity,{" "}
+          </p>
+          <p className="header2tex">
+            Ideas flourish, dreams take shape,
+            <br /> and innovation knows no boundaries ’’Creative <br /> Corner’’
+          </p>
+          <Button as={Link} to="/Contact" className="  butncolo1">
             Get in Touch
           </Button>
-          <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent  btn-outline-light ">
+          <Button
+            as={Link}
+            to="/Services"
+            className="ms-3    bg-transparent   btn-outline-light butncolo2  "
+          >
             Learn More
           </Button>
         </div>
@@ -54,16 +68,23 @@ function Headerslider() {
           src="../../Assets/third.png"
           alt="Third slide"
         />
-       <div class="content">
-          <h1 className="mt-3">In the corner of creativity, </h1>
-          <h6 className="mt-3">
-            Ideas flourish, dreams take shape, and innovation knows no
-            boundaries ’’Creative Corner’’
-          </h6>
-          <Button as={Link} to="/Contact" className="ms-5 mt-3 px-5 butncolo">
+        <div class="  content">
+          <p className="header1tex ">
+            In the corner <br />
+            of creativity,{" "}
+          </p>
+          <p className="header2tex">
+            Ideas flourish, dreams take shape,
+            <br /> and innovation knows no boundaries ’’Creative <br /> Corner’’
+          </p>
+          <Button as={Link} to="/Contact" className="  butncolo1">
             Get in Touch
           </Button>
-          <Button as={Link} to="/Services" className="ms-5  mt-3 bg-transparent   btn-outline-light  ">
+          <Button
+            as={Link}
+            to="/Services"
+            className="ms-3    bg-transparent   btn-outline-light butncolo2  "
+          >
             Learn More
           </Button>
         </div>
