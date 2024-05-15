@@ -1,27 +1,28 @@
 
 /* NAVBAR */
-.logoo{padding-left: 15%;}
+.logoo{padding-left: 20%;}
+
+.expendmenu{width: 80%;}
+
 .nav-link{font-weight:500;}
 .nav-link:hover {
   border-bottom: 3px solid #52B1DA
   ;
 }
-
 .nav-link:active {
   border-bottom: 3px solid #52B1DA
   ;
 }
 
-
 .butncolo{   background-image: linear-gradient(to right, #54B3DC
   , #1E87B4
   );
   border: none;
-  margin-right: 9%;
+margin-left: 29% !important;
+padding:1% 3%;
   }
 
 /* HEADER */
-
 .header1tex{font-size: 44px;
   line-height: 1.1;
 font-weight: bolder;}
@@ -42,11 +43,12 @@ font-weight: bolder;}
   background-image: radial-gradient(#2189B6
 
   ,#4EAAD1);
-  border: none;   margin-top: 4%;
+  border: none; 
   padding: 1.5% 7%;
   font-size: 17px !important;
 }
-  .butncolo2 {margin-top: 4%;
+  .butncolo2 {  margin-left: 3%;
+     margin-top: 4%;
     padding: 1.5% 3%;}
 
 /* first section */
@@ -329,17 +331,34 @@ margin-bottom: 4%; border-color: rgb(137, 153, 153, .5);
 
 
 
-/* media qauiry */
 
 /* media qauiry */
-@media screen and (min-width: 1440px) {
+@media screen and ( device-width: 1024px ) {
+  .expendmenu{width: 95%;}
+  .butncolo{  
+    margin-left: 8% !important
+    ;
+    }
+    .butncolo1 {  
+      border-radius: 8px !important;
+    }
+    .butncolo2 { margin-left: 3%;
+      border-radius: 8px !important;
+ }
+}
+
+@media screen and (min-width: 1441px) {
   /* NavBar */
-.logoo{padding-left: 36%;}
+.logoo{padding-left: 36%;
+}
+.expendmenu{width: 70%;}
 .butncolo{  
-  margin-right: 15%;
+  margin-left: 20% !important
+  ;
   }
 
 /* Header */
+.mobile-image{width: 100%;}
   .header1tex{font-size: 74px;
   font-weight: bolder;}
   .header2tex{font-size: 18px;}
@@ -354,23 +373,11 @@ margin-bottom: 4%; border-color: rgb(137, 153, 153, .5);
   color: #fff; /* Set text color */
 }
 .butncolo1 {  
-  border-radius: 20px;
+  border-radius: 10px;
 }
-  .butncolo2 {  border-radius: 20px;
+  .butncolo2 { margin-left: 3%;
+     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -405,12 +412,18 @@ margin-bottom: 4%; border-color: rgb(137, 153, 153, .5);
   and (max-device-width: 1024px) {
    
       /* NavBar */
-.logoo{padding-left: 25%;}
+.logoo{padding-left: 9%;
+width: 100%;}
 .butncolo{  
   margin-right: 10%;
   }
+  .humbrugermenu{margin-right: 2%;}
 
 /* Header */
+.mobile-image{
+  width: 100%;
+ 
+}
   .header1tex{font-size: 40px;
   font-weight: bolder;}
   .header2tex{font-size: 13px;}
@@ -423,11 +436,12 @@ margin-bottom: 4%; border-color: rgb(137, 153, 153, .5);
 }
 .butncolo1 {  
   margin-top: 3%;
-  border-radius: 15px;
+  border-radius: 10px !important;
 }
-  .butncolo2 {   margin-top: 3%;
+  .butncolo2 { margin-left: 3%;
+      margin-top: 3%;
 
-     border-radius: 15px;
+     border-radius: 10px !important;
 }
 
 
@@ -470,13 +484,71 @@ margin-bottom: 4%; border-color: rgb(137, 153, 153, .5);
     
 }
 
-/* For Mobile Phones Portrait or Landscape View */
-@media screen
+@media (max-width: 767px) {
 
-    and (max-device-width:768) {
-     
-      .logoo{padding-left: 5%;}
+   /* NavBar */
+   .logoo{padding-left: 4%;
+    width: 80%;}
+    
+      
+    
+    /* Header */
+    
+      .header1tex{font-size: 35px;
+      font-weight: bold;}
+      .header2tex{font-size: 15px;
+        width: 100%;
+        font-weight: bold;
 
+      }
+    .content {
+      width: 90%;
+      position: absolute;
+      top: 50% !important ;
+      left: 50% !important ;
+    
+    }
+    .butncolo1 {  width: 100%; 
+      margin-top: 14%;
+      border-radius: 10px;
+     background-color: #5083E8
+      !important;
+      border: none; 
+      padding: 2% 7%;
+    
+    }
+      .butncolo2 {   width: 100%;
+         margin-top: 5%;
+    margin-left: 0% !important;
+         border-radius: 10px;
+    }
+    
+
+
+  .mobile-half-image {
+    object-fit: cover; /* Ensure the image covers its container */
+    height: 100%; /* Set the height to 100% */
+    width: 50%; /* Set the width to 50% */
+    float: left; /* Float the image to the left */
+    overflow: hidden; /* Hide the overflow of the image */
+  }
+
+
+
+
+
+}
+
+  /* .butncolo1 {  
+    margin-top: 3%;
+    border-radius: 15px;
+  }
+    .butncolo2 {   margin-top: 3%;
+  
+       border-radius: 15px;
+  } */
+  
+/* 
       .cardico{ 
         width: 40%;
         margin-left: 30%;}
@@ -489,8 +561,8 @@ margin-bottom: 4%; border-color: rgb(137, 153, 153, .5);
         margin-bottom:2%;}
 
         .small{padding: 1% 3%;}
-        .mobilecal{width: 100%;}
-    }
+        .mobilecal{width: 100%;} */
+    
 
 
 

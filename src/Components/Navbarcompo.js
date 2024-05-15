@@ -32,14 +32,15 @@ function Navbarcompo() {
             alt="logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" onClick={toggleNavbar} />
+        <Navbar.Toggle aria-controls="navbarScroll" onClick={toggleNavbar} className="humbrugermenu" />
         <Navbar.Collapse
           id="navbarScroll"
           className="  flex-row-reverse
         "
         >
-          <Nav className=" my-2  my-lg-0   ">
-            <Nav.Link as={Link} to="/Home" className="link-light  mx-4  ">
+          <Nav className=" expendmenu   ">
+            
+            <Nav.Link as={Link} to="/Home" className="link-light  mx-4   ">
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/about" className="link-light mx-4 ">
@@ -48,17 +49,18 @@ function Navbarcompo() {
             <Nav.Link as={Link} to="/Services" className="link-light mx-4 ">
               Services
             </Nav.Link>
-            <Nav.Link as={Link} to="/our team" className="link-light mx-4 pr-5 ">
+            <Nav.Link as={Link} to="/our team" className="link-light mx-4  mr-5 ">
               Our Team
             </Nav.Link>
-          </Nav>
-        
-        </Navbar.Collapse>
-        {isButtonVisible && (
-          <Button as={Link} to="/Contact" className="ms-5  butncolo ">
+            {isButtonVisible && (
+          <Button as={Link} to="/Contact" className="  butncolo ">
             Get in touch
           </Button>
         )}
+          </Nav>
+        
+        </Navbar.Collapse>
+        
         
       </Container>
     </Navbar>

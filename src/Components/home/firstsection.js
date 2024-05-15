@@ -19,8 +19,15 @@ function MainHomeSection() {
     <div className="MAINSECTION  py-5">
       {/* PART1 */}
 
-      <div className="row  justify-content-between mb-4 px-5">
-        <div className=" col-md-5  col-12  mt-5">
+      <div className="row  justify-content-between  px-5">
+      <div className=" col-md-6 col-12 ">
+          <img
+            src="../../Assets/12.png"
+            class="img-thumbnaill  "
+            alt="hi "
+          />
+        </div>
+        <div className=" col-md-6  col-12  mt-5">
           <h3 className="text-start  mt-3 fontOtomanopee">
             Creative Corner | for Marketing Solutions & Development Services{" "}
           </h3>
@@ -39,13 +46,7 @@ function MainHomeSection() {
           </p>
         </div>
 
-        <div className=" col-md-5 col-12 ">
-          <img
-            src="../../Assets/12.png"
-            class="img-thumbnaill  "
-            alt="hi "
-          />
-        </div>
+       
       </div>
 
 <Vedisection/>

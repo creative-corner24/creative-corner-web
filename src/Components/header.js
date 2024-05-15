@@ -9,7 +9,7 @@ function Headerslider() {
     <Carousel controls={false}    data-bs-theme="white">
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="   mobile-image   "
           src="../../Assets/first.png"
           alt="First slide"
         />
@@ -24,11 +24,11 @@ function Headerslider() {
           </p>
           <Button as={Link} to="/Contact" className="  butncolo1">
             Get in Touch
-          </Button>
+          </Button>       
           <Button
             as={Link}
             to="/Services"
-            className="ms-3    bg-transparent   btn-outline-light butncolo2  "
+            className="    bg-transparent   btn-outline-light butncolo2  "
           >
             Learn More
           </Button>
@@ -36,7 +36,7 @@ function Headerslider() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="  mobile-image    "
           src="../../Assets/second.png"
           alt="Second slide"
         />
@@ -64,7 +64,7 @@ function Headerslider() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="   mobile-image   "
           src="../../Assets/third.png"
           alt="Third slide"
         />
