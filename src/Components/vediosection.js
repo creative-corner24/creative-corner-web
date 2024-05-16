@@ -12,14 +12,12 @@ export default class Thirdhome extends Component {
           muted
           src="../assets/home.webm"
         ></video>
-        <h1
-          className="vediocaption" >
+        <h2 className="vediocaption">
           {" "}
           We believe in the power of creativity to transform ideas into
           unforgettable experiences
-        </h1>
+        </h2>
       </div>
     );
   }
 }
-
