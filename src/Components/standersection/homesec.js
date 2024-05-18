@@ -5,13 +5,9 @@ const SECONDPART =(props)=> {
 console.log("props", props)
 
    return(
-    <div className="He position-relative  ">
-    <img
-      className="img-fluid covericon"
-      src={props.img}
-      alt="Second slide"
-    />
-    <div className=" position-absolute top-0 Hecontent">
+    <div className="He  ">
+   
+    <div className="  top-0 Hecontent">
     <img className="icons  " src={props.imgicon} alt="Second slide" />
     <h5 className="firsttext">{props.text}</h5>
     <p className="secondtext">{props.text2}</p>

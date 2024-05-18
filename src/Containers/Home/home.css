@@ -126,6 +126,39 @@ video {
 
 /* SECONDPART-PROPS */
 
+.cardbackground1{
+background-image: url('../../Components/home/images/Frame\ 188.png');
+background-size: cover;
+background-position: center;
+color: white; /* Ensure the text is readable against the background */
+}
+
+.cardbackground2{
+  background-image: url('../../Components/home/images/Frame\ 190.png');
+  background-size: cover;
+  background-position: center;
+  color: white; 
+
+
+}
+.cardbackground3{
+  background-image: url('../../Components/home/images/Frame\ 190.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+
+
+}
+.cardbackground4{
+  background-image: url('../../Components/home/images/Frame\ 189.png');
+  background-size: cover;
+  background-position: center;
+  color: black;
+
+}
+
+
+
 .Hecontent {
   height: 100%;
 

@@ -8,7 +8,7 @@ import icon from "./images/1icon.png";
 import icon2 from "./images/2icon.png";
 import icon3 from "./images/3icon.png";
 import icon4 from "./images/4icon.png";
-import icon5 from "./images/lon.png"
+import icon5 from "./images/lon.png";
 import icoon from "./images/2.png";
 import cardim from "./images/card.png";
 import free from "./images/Group 6.png";
@@ -20,10 +20,9 @@ function MainHomeSection() {
       {/* PART1 */}
 
       <div className="row  justify-content-between   spaceing">
-      
         <div className=" col-md-6  firstcloum ">
           <h2 className="text-start   fontOtomanopee">
-            Creative Corner | for Marketing Solutions &  Development Services{" "}
+            Creative Corner | for Marketing Solutions & Development Services{" "}
           </h2>
           <p className=" text-start  Nunito ">
             At{" "}
@@ -49,11 +48,68 @@ function MainHomeSection() {
         </div>
       </div>
 
-<Vedisection/>
+      <Vedisection />
 
       {/* SECONDPART-PROPS */}
 
-      <div className="row p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 firstcol">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card cardbackground1">
+                  <div class="card-body">
+                    <SECONDPART
+                      text="Production Services"
+                      imgicon={icon}
+                      text2="here imagination meet expertise in our creative production services...."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card  cardbackground2  ">
+                  <div class="card-body">
+                    <SECONDPART
+                      text="Digital Marketing
+Strategy"
+                      imgicon={icon2}
+                      text2="Digital marketing refers to the use of digital channels, platform...."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card cardbackground3   ">
+                  {/* <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image"> */}
+                  <div class="card-body">
+                    <h5 class="card-title">Card Title 3</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card  cardbackground4 ">
+                  {/* <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image"> */}
+                  <div class="card-body">
+                    <h5 class="card-title">Card Title 4</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 secondcol"></div>
+        </div>
+      </div>
+
+      {/* <div className="row p-5">
         <div className="col-md-7 mt-4">
           <div className="row">
             <div className="col-md-4">
@@ -115,61 +171,54 @@ Strategy"
             <i className="bi bi-chevron-right fa-1x text-dark butonic" />
           </a>
         </div>
-      </div>
+      </div> */}
 
-
-
+      {/* <third part > */}
       <div className=" likecard m-5">
-        
         <div className="row rowcard ">
-        
-        <div className="position-relative ">
-        <img src={free}
-          className="
+          <div className="position-relative ">
+            <img
+              src={free}
+              className="
            frree
            "
-          />
-        </div>
+            />
+          </div>
           <div className="col-md-7 cardcol pe-4">
             <h4 className="mb-5">
-              <i className="bi bi-caret-right-fill trian"></i>IF you want to stop wasting
-              time and money on flashy campaigns that look good but generate
-              zero sales
+              <i className="bi bi-caret-right-fill trian"></i>IF you want to
+              stop wasting time and money on flashy campaigns that look good but
+              generate zero sales
             </h4>
             <h4 className="mb-5">
-              <i className="bi bi-caret-right-fill trian"></i>IF you want to get the most
-              out of your team and budget
+              <i className="bi bi-caret-right-fill trian"></i>IF you want to get
+              the most out of your team and budget
             </h4>
             <h4 className="">
-              <i className="bi bi-caret-right-fill trian"></i>IF you are serious about
-              growing your business
+              <i className="bi bi-caret-right-fill trian"></i>IF you are serious
+              about growing your business
             </h4>
           </div>
-          
-          <div className="col-md-5 "
-          >
-            
-           
-              <div className=" position-relative top-0 mx-5  cardim ">
-            
-                <img className="cardico" src={icon5} />
-                <h4 className="cardtex   text-light">
-                  Schedule a free meeting with our experts now!
-                </h4>
-                <a
-                  href="/Services"
-                  className="btn  ms-4 cardbuttton "
-                  role="button"
-                  aria-pressed="true"
-                >
-                  Schedule now{" "}
-                  <i className="bi bi-chevron-right fa-1x butonic" />
-                </a>
-              </div>
+
+          <div className="col-md-5 ">
+            <div className=" position-relative top-0 mx-5  cardim ">
+              <img className="cardico" src={icon5} />
+              <h4 className="cardtex   text-light">
+                Schedule a free meeting with our experts now!
+              </h4>
+              <a
+                href="/Services"
+                className="btn  ms-4 cardbuttton "
+                role="button"
+                aria-pressed="true"
+              >
+                Schedule now <i className="bi bi-chevron-right fa-1x butonic" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+    </div>
   );
 }
 
