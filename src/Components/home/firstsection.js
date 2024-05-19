@@ -125,7 +125,7 @@ Strategy"
      
 
       <div className="row mainnrow">
-        <div className="col-md-7 ">
+        <div className="col-md-7  FIRRS">
           <div className="row  branchrow ">
             <div className="col-md-5 cardbackground1">
               <SECONDPART
@@ -158,15 +158,14 @@ Strategy"
             <div className="col-md-5 cardbackground4">
               <SECONDPART
                 img={frst}
-                text="Mobile & Web 
-                  Development "
+                text="Mobile & Web Development "
                 imgicon={icon4}
                 text2="Creative Corner Agency offers comprehensive website Developme... "
               />
             </div>
           </div>
         </div>
-        <div className="col-md-5 my-auto  ">
+        <div className="col-md-5 my-auto  SCAA ">
           <h4 className="mt-4">Discover</h4>
           <h1 className="mt-4 ourser  fontOtomanopee  ">Our Services</h1>
           <h4 className="mt-4">include...</h4>
