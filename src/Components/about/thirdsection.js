@@ -26,7 +26,7 @@ function ThirdSection() {
         <div className="row ustify-content-between my-5">
         <div className="col-md-7  leftbord">
           <h4>Our vision</h4>
-          <p  className=" Nunito ">
+          <p  className=" Nunito  nino">
             At Creative Corner, our vision is to lead the marketing industry
             with innovative solutions that inspire success and drive branding
             growth. We aspire to set new standards of excellence through

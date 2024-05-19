@@ -50,13 +50,14 @@ function MainHomeSection() {
 
       <Vedisection />
 
-      {/* SECONDPART-PROPS */}
 
-      <div class="container">
-        <div class="row">
+      {/* SECONDPART-PROPS */}
+{/* 
+        <div class="row mainnrow">
           <div class="col-md-7 firstcol">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-5  cardcol1">
+
                 <div class="card cardbackground1">
                   <div class="card-body">
                     <SECONDPART
@@ -67,7 +68,8 @@ function MainHomeSection() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+
+              <div class="col-md-5  cardcol2 ">
                 <div class="card  cardbackground2  ">
                   <div class="card-body">
                     <SECONDPART
@@ -79,40 +81,53 @@ Strategy"
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+
+              <div class="col-md-5 cardcol3  ">
                 <div class="card cardbackground3   ">
-                  {/* <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image"> */}
                   <div class="card-body">
-                    <h5 class="card-title">Card Title 3</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+                  <SECONDPART
+                text="Social Media 
+                  Marketing"
+                imgicon={icon3}
+                text2="The platforms on which  build social networks and share informa..."
+              />
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-5  cardcol4">
                 <div class="card  cardbackground4 ">
-                  {/* <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image"> */}
                   <div class="card-body">
-                    <h5 class="card-title">Card Title 4</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+                     <SECONDPART
+          
+                text="Mobile and Web 
+                  Development solutions"
+                imgicon={icon4}
+                text2="Creative Corner Agency offers comprehensive website Developme... "
+              />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-5 secondcol"></div>
-        </div>
-      </div>
+          <div class="col-md-5 secondcol">
 
-      {/* <div className="row p-5">
-        <div className="col-md-7 mt-4">
-          <div className="row">
-            <div className="col-md-4">
+          </div>
+          <a
+            href="/Services"
+            className="btn    mt-3 partbutton "
+            role="button"
+            aria-pressed="true"
+          >
+            All Services{" "}
+            <i className="bi bi-chevron-right fa-1x text-dark butonic" />
+          </a>
+        </div> */}
+     
+
+      <div className="row mainnrow">
+        <div className="col-md-7 ">
+          <div className="row  branchrow ">
+            <div className="col-md-5 cardbackground1">
               <SECONDPART
                 img={thrd}
                 text="Production Services"
@@ -120,7 +135,7 @@ Strategy"
                 text2="here imagination meet expertise in our creative production services...."
               />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-5 cardbackground2">
               <SECONDPART
                 img={secd}
                 text="Digital Marketing
@@ -130,8 +145,8 @@ Strategy"
               />
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-4">
+          <div className="row mb-3 branchrow">
+            <div className="col-md-5 cardbackground3">
               <SECONDPART
                 img={secd}
                 text="Social Media 
@@ -140,11 +155,11 @@ Strategy"
                 text2="The platforms on which  build social networks and share informa..."
               />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-5 cardbackground4">
               <SECONDPART
                 img={frst}
-                text="Mobile and Web 
-                  Development solutions"
+                text="Mobile & Web 
+                  Development "
                 imgicon={icon4}
                 text2="Creative Corner Agency offers comprehensive website Developme... "
               />
@@ -155,7 +170,7 @@ Strategy"
           <h4 className="mt-4">Discover</h4>
           <h1 className="mt-4 ourser  fontOtomanopee  ">Our Services</h1>
           <h4 className="mt-4">include...</h4>
-          <p className="mt-4 text-black-50">
+          <p className="mt-4 nino">
             At Creative Corner, we offer a range of services to help businesses
             stand out in the digital world. From captivating designs to
             effective marketing strategies, we have the expertise to bring your
@@ -171,7 +186,7 @@ Strategy"
             <i className="bi bi-chevron-right fa-1x text-dark butonic" />
           </a>
         </div>
-      </div> */}
+      </div>
 
       {/* <third part > */}
       <div className=" likecard m-5">
