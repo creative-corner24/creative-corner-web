@@ -167,6 +167,8 @@ padding: 4% 5%;}
   border-radius: 5%;
   margin-right: 3%;
   margin-bottom: 4%;
+  padding-bottom: 5%;
+
   height:95%;
 
 }
@@ -178,6 +180,7 @@ padding: 4% 5%;}
   border: none;
   border-radius: 5%;
   margin-bottom: 4%;
+  padding-bottom: 5%;
 
   height:95%;
 
@@ -192,6 +195,7 @@ padding: 4% 5%;}
   border-radius: 5%;
   margin-right: 3%;
   margin-bottom: 4%;
+  padding-bottom: 8%;
 
   height:95%;
 }
@@ -204,7 +208,7 @@ padding: 4% 5%;}
   border: none;
   border-radius: 5%;
   margin-bottom: 4%;
-
+padding-bottom: 5%;
   height:95%;
 
 }
@@ -245,8 +249,6 @@ margin-bottom: 2%;
 
 }
 
-
-
 .butonic {
   font-weight: bolder;
   padding: 0px 5px;
@@ -255,11 +257,11 @@ margin-bottom: 2%;
   border-radius: 50px;
 }
 
-.ourser {
+.ourser { margin-top: 3%;
+  margin-bottom: 3%;
   color: #1E4F9E;
 }
-
-/* part2 */
+.OTHERDEVICE{display: none;}
 
 .partbutton {
   padding: 2% 2%;
@@ -272,24 +274,24 @@ margin-bottom: 2%;
 
   border-radius: 50px;
 }
+ /* THIRD PART */
 
-
-/* likecard section */
-.likecard {
+.likecard {margin: 3% 5% !important;
   border-color: #062e3f;
   border-width: 1px;
   border-style: solid;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 20px;
 }
 
 .rowcard {
-  padding: 3% 3%;
+  padding: 3% 5%;
   position: relative;
 }
 
 .cardcol {
+  padding-top: 2%;
+  font-size: x-large;
   border-right-style: solid;
   border-right-width: 1px;
   border-color: #062e3f;
@@ -307,31 +309,42 @@ margin-bottom: 2%;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 5%;
+  margin-left: 10%;
 }
 
 .cardico {
   width: 25%;
-  margin-left: 35%;
-}
+margin-top: 3%;
+margin-left: 36%;}
 
 .cardtex {
-  width: 100%;
+  margin: 2% 10%;
+  width: 80%;
+  font-size: xx-large;
   text-align: center !important;
-  margin-bottom: 7%;
 }
 
 .cardbuttton {
-  width: 80%;
-  height: 10%;
-  text-align: center !important;
-
-  margin-left: 3%;
+  margin-left: 15% !important;
+  width: 70%;
+padding: 3% 6%; 
+ text-align: center !important;
+margin-top: 1%;
   margin-bottom: 4%;
   border-color: rgb(137, 153, 153, .5);
-  font-size: large;
+  font-size: x-large;
+  font-weight: 500;
   color: black;
-  background-color: rgb(240, 248, 255, 0.6);
+  background-color: rgb(255, 255, 255 ,0.7);
+
   border-radius: 50px;
+}
+.butonicc {
+  font-weight: bolder;
+  padding: 5px 5px;
+  margin-left: 8%;
+  background-color: rgb(255, 255, 255, .9);
+  border-radius:40px;
 }
 
 .maindiv {
@@ -339,10 +352,9 @@ margin-bottom: 2%;
 }
 
 .frree {
-  width: 8% !important;
+  width: 9% !important;
   position: absolute;
-  top: 0%;
-  left: 100%;
+  left: 101.5%;
   transform: translate(-50%, -50%);
 }
 
@@ -435,6 +447,8 @@ margin-bottom: 2%;
 /* media qauiry */
 
 @media screen and (device-width: 1024px) {
+  .logoo{padding-left: 12%;
+  width: 95%;}
   .expendmenu {
     width: 95%;
   }
@@ -466,7 +480,7 @@ margin-bottom: 2%;
 
   .firstcloum h2 {
     font-size: xx-large;
-    width: 50%;
+    width: 80%;
   }
 
   .firstcloum p {
@@ -474,12 +488,125 @@ margin-bottom: 2%;
   }
 
 
+
+
+/* SECOND PROPS */
+.mainnrow {
+padding: 0% 5%;}
+.FIRRS{  
+  overflow-x: hidden;
+  order: 2;
+  width: 100%;
+  height: 100%;
+  padding: 2% 5%;
+  margin-left: 5%;
+margin-top: 1%;
+ }
+
+ .cardbackground4 {
+padding-bottom: 8%;
+  
+}
+  .SCAA{ 
+    margin-left: 2%;
+    padding: 0% 3%;
+     order: 1;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.LARGESIZE{display: none;}
+.OTHERDEVICE{border-radius: 10px;
+  padding: 1% 2%; font-size: x-large;
+  margin-left: 12%;
+  display: block;
+width: 75%;}
+/* THIRD PART */
+
+.likecard {margin: 3% 5% !important;
+  border-color: #062e3f;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* SECOND PART */
+.rowcard {
+  padding: 3% 5%;
+  position: relative;
+}
 
+.cardcol {
+  padding-right: 1.5%;
+  padding-top: 2%;
+  font-size: medium;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-color: #062e3f;
+}
 
+.trian {
+  color: #419bc4;
+  font-weight: bold;
+}
 
+.cardim {
+  background-image: url('../../Components/home/images/card.png');
+  background-size: cover;
+  /* This ensures the image covers the entire element */
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  margin-left: 10%;
+}
+
+.cardico {
+  width: 25%;
+margin-top: 3%;
+margin-left: 36%;}
+
+.cardtex {
+  margin: 2% 10%;
+  width: 80%;
+  font-size: large;
+  text-align: center !important;
+}
+
+.cardbuttton {
+  margin-left: 15% !important;
+  width: 70%;
+padding: 3% 6%; 
+ text-align: center !important;
+margin-top: 1%;
+  margin-bottom: 4%;
+  border-color: rgb(137, 153, 153, .5);
+  font-size: large;
+  font-weight: 500;
+  color: black;
+  background-color: rgb(255, 255, 255 ,0.7);
+
+  border-radius: 50px;
+}
+.butonicc {
+  font-weight: bolder;
+  padding: 5px 5px;
+  margin-left: 8%;
+  background-color: rgb(255, 255, 255, .9);
+  border-radius:40px;
+}
+
+.maindiv {
+  width: 200px;
+}
+
+.frree {
+  width: 9% !important;
+  position: absolute;
+  left: 101.5%;
+  transform: translate(-50%, -50%);
+}
+ 
+}
 
 
 @media screen and (min-width: 1441px) {
@@ -561,6 +688,12 @@ margin-bottom: 2%;
   
   }
 
+  /* THIRD PART  */
+  .frree {
+    
+    left: 102%;
+  }
+
 }
 
 
@@ -588,7 +721,7 @@ margin-bottom: 2%;
 
 /* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-
+ *{ overflow-x: hidden;}
   /* NavBar */
   .logoo {
     padding-left: 9%;
@@ -667,19 +800,32 @@ margin-bottom: 2%;
 
 
   /* SECOND PART */
-.FIRRS{ order: 1;
+  .mainnrow {
+   
+  padding: 1% 5%;}
+.FIRRS{  
+  margin-left: 7%;
+  overflow-x: hidden;
+  order: 2;
   width: 100%;
-  padding: 1% 1%;
+  height: 100%;
+  padding: 0% 5%;
 
-  margin: 1% 0%;}
-  .SCAA{ order: 2;
+ }
+  .SCAA{ margin-left: 5%;
+    padding: 0% 3%;
+     order: 1;
     width: 100%;
-    padding: 1% 1%;
-  
-    margin: 1% 0%;}
-    .btn-block {
-      width: 100%;
-    }
+    height: 100%;
+    overflow-x: hidden;
+}
+.LARGESIZE{display: none;}
+.OTHERDEVICE{ border-radius: 10px;
+  padding: 1% 2%; font-size: x-large;
+  margin-left: 13%;
+  display: block;
+width: 75%;}
+ 
 } 
 
 
@@ -838,19 +984,40 @@ margin-bottom: 2%;
   }
 
    /* SECOND PART */
-.FIRRS{ order: 1;
+ .FIRRS{  
+  overflow-x: hidden;
+  order: 2;
   width: 100%;
-  padding: 1% 1%;
+  height: 100%;
 
-  margin: 1% 0%;}
-  .SCAA{ order: 2;
+  margin-left: .5%;
+
+ }
+ .cardbackground1{width: 48%;}
+ .cardbackground2{width: 48%;}
+ .cardbackground3{width: 48%;}
+ .cardbackground4{width: 48%;  
+padding-bottom: 8%;}
+ .cardbutton {
+    font-size: medium;
+    width: 90%;
+    
+  }
+
+  .SCAA{ 
+    padding: 0% 3%;
+     order: 1;
     width: 100%;
-    padding: 1% 1%;
-  
-    margin: 1% 0%;}
-    /* vedio section  */
-
+    height: 100%;
+    overflow-x: hidden;
 }
+.LARGESIZE{display: none;}
+.OTHERDEVICE{margin-left: 9%;
+  display: block;
+width: 80%;}
+ .ourser{margin-top: 2%;
+  margin-bottom: 2%;}
+} 
 
 
 

@@ -52,82 +52,13 @@ function MainHomeSection() {
 
 
       {/* SECONDPART-PROPS */}
-{/* 
-        <div class="row mainnrow">
-          <div class="col-md-7 firstcol">
-            <div class="row">
-              <div class="col-md-5  cardcol1">
 
-                <div class="card cardbackground1">
-                  <div class="card-body">
-                    <SECONDPART
-                      text="Production Services"
-                      imgicon={icon}
-                      text2="here imagination meet expertise in our creative production services...."
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-5  cardcol2 ">
-                <div class="card  cardbackground2  ">
-                  <div class="card-body">
-                    <SECONDPART
-                      text="Digital Marketing
-Strategy"
-                      imgicon={icon2}
-                      text2="Digital marketing refers to the use of digital channels, platform...."
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-5 cardcol3  ">
-                <div class="card cardbackground3   ">
-                  <div class="card-body">
-                  <SECONDPART
-                text="Social Media 
-                  Marketing"
-                imgicon={icon3}
-                text2="The platforms on which  build social networks and share informa..."
-              />
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-5  cardcol4">
-                <div class="card  cardbackground4 ">
-                  <div class="card-body">
-                     <SECONDPART
-          
-                text="Mobile and Web 
-                  Development solutions"
-                imgicon={icon4}
-                text2="Creative Corner Agency offers comprehensive website Developme... "
-              />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 secondcol">
-
-          </div>
-          <a
-            href="/Services"
-            className="btn    mt-3 partbutton "
-            role="button"
-            aria-pressed="true"
-          >
-            All Services{" "}
-            <i className="bi bi-chevron-right fa-1x text-dark butonic" />
-          </a>
-        </div> */}
      
 
-      <div className="row mainnrow">
-        <div className="col-md-7  FIRRS">
+      <div className="row justify-content-between  mainnrow">
+        <div className="col-md-6  FIRRS">
           <div className="row  branchrow ">
-            <div className="col-md-5 cardbackground1">
+            <div className="col-6 col-md-5 cardbackground1">
               <SECONDPART
                 img={thrd}
                 text="Production Services"
@@ -135,7 +66,7 @@ Strategy"
                 text2="here imagination meet expertise in our creative production services...."
               />
             </div>
-            <div className="col-md-5 cardbackground2">
+            <div className="col-6 col-md-5 cardbackground2">
               <SECONDPART
                 img={secd}
                 text="Digital Marketing
@@ -145,8 +76,8 @@ Strategy"
               />
             </div>
           </div>
-          <div className="row mb-3 branchrow">
-            <div className="col-md-5 cardbackground3">
+          <div className="row   mb-3 branchrow">
+            <div className="col-6 col-md-5 cardbackground3">
               <SECONDPART
                 img={secd}
                 text="Social Media 
@@ -155,20 +86,20 @@ Strategy"
                 text2="The platforms on which  build social networks and share informa..."
               />
             </div>
-            <div className="col-md-5 cardbackground4">
+            <div className="col-6 col-md-5 cardbackground4">
               <SECONDPART
                 img={frst}
-                text="Mobile & Web Development "
+                text="Mobile and Web Development "
                 imgicon={icon4}
                 text2="Creative Corner Agency offers comprehensive website Developme... "
               />
             </div>
           </div>
         </div>
-        <div className="col-md-5 my-auto  SCAA ">
-          <h4 className="mt-4">Discover</h4>
-          <h1 className="mt-4 ourser  fontOtomanopee  ">Our Services</h1>
-          <h4 className="mt-4">include...</h4>
+        <div className="col-md-6 my-auto  SCAA ">
+          <h3 >Discover
+          <h1 className=" ourser  fontOtomanopee  ">Our Services</h1>
+          include...</h3>
           <p className="mt-4 nino">
             At Creative Corner, we offer a range of services to help businesses
             stand out in the digital world. From captivating designs to
@@ -177,7 +108,7 @@ Strategy"
           </p>
           <a
             href="/Services"
-            className="btn    mt-3 partbutton "
+            className="btn  LARGESIZE  mt-3 partbutton "
             role="button"
             aria-pressed="true"
           >
@@ -185,10 +116,22 @@ Strategy"
             <i className="bi bi-chevron-right fa-1x text-dark butonic" />
           </a>
         </div>
+        
       </div>
+      <a
+            href="/Services"
+            className="btn  OTHERDEVICE  mt-3 partbutton "
+            role="button"
+            aria-pressed="true"
+          >
+            All Services{" "}
+            <i className="bi bi-chevron-right fa-1x text-dark butonic" />
+          </a>
 
       {/* <third part > */}
-      <div className=" likecard m-5">
+
+
+      <div className=" likecard ">
         <div className="row rowcard ">
           <div className="position-relative ">
             <img
@@ -198,35 +141,35 @@ Strategy"
            "
             />
           </div>
-          <div className="col-md-7 cardcol pe-4">
-            <h4 className="mb-5">
-              <i className="bi bi-caret-right-fill trian"></i>IF you want to
-              stop wasting time and money on flashy campaigns that look good but
+          <div className="col-md-7 cardcol ">
+            <p className="mb-5 Nunito">
+              <i className="bi bi-caret-right-fill trian"></i> IF you want to
+              stop wasting time and money on  <br/>&emsp;flashy  campaigns that look good but
               generate zero sales
-            </h4>
-            <h4 className="mb-5">
-              <i className="bi bi-caret-right-fill trian"></i>IF you want to get
+            </p>
+            <p className="mb-5 Nunito">
+              <i className="bi bi-caret-right-fill trian"></i>  IF you want to get
               the most out of your team and budget
-            </h4>
-            <h4 className="">
-              <i className="bi bi-caret-right-fill trian"></i>IF you are serious
+            </p>
+            <p className="Nunito   ">
+              <i className="bi bi-caret-right-fill trian"></i>  IF you are serious
               about growing your business
-            </h4>
+            </p>
           </div>
 
-          <div className="col-md-5 ">
-            <div className=" position-relative top-0 mx-5  cardim ">
+          <div className="col-md-5 Nunito ">
+            <div className=" position-relative top-0  cardim ">
               <img className="cardico" src={icon5} />
               <h4 className="cardtex   text-light">
-                Schedule a free meeting with our experts now!
+                Schedule a free meeting <br/> with our experts now!
               </h4>
               <a
                 href="/Services"
-                className="btn  ms-4 cardbuttton "
+                className="btn Nunito  cardbuttton "
                 role="button"
                 aria-pressed="true"
               >
-                Schedule now <i className="bi bi-chevron-right fa-1x butonic" />
+                Schedule now <i className="bi bi-chevron-right fa-1x butonicc" />
               </a>
             </div>
           </div>
