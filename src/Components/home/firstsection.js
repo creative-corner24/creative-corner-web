@@ -132,11 +132,12 @@ Strategy"
 
 
       <div className=" likecard ">
+      
         <div className="row rowcard ">
-          <div className="position-relative ">
+        <div className="position-relative ">
             <img
               src={free}
-              className="
+              className="position-absolute 
            frree
            "
             />
