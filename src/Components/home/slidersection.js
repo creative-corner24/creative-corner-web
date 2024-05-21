@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Virtual, Navigation, Pagination } from "swiper/modules";
+import { Virtual, Navigation, Pagination,EffectCoverflow } from "swiper/modules";
 import sllid from "./images/Rectangle 147.png";
 import sllid2 from "./images/Mobile_Presen.jpg";
 import slllid from "./images/5aleg.png";
@@ -24,52 +24,69 @@ function Slidersection() {
   
   return (
     <>
-      <div>
+
+
+ <div>
         <h1 className=" mx-5 my-4 text-start  fontOtomanopee">Our Work</h1>
         <Swiper
+//   breakpoints = {{
+//     640: {
+//       slidesPerView: 1,
+//       spaceBetween: 10,
+//     },
+//     768: {
+//       slidesPerView: 1,
+//       spaceBetween: 10,
+//     },
+//     1024: {
+//       slidesPerView: 1,
+//       spaceBetween: 20,
+//     },
+//         }}
           onSwiper={setSwiperRef}
-          slidesPerView={1.5}
-          centeredSlides={true}
-          spaceBetween={30}
+
+          slidesPerView={2}
+          // centeredSlides={true}
+          spaceBetween={10}
           loop={true}
           pagination={{
             clickable: true,
           }}
           navigation={true}
           modules={[Navigation, Pagination]}
-          className=" myswiper"
+          // className=" myswiper"
         >
           <SwiperSlide className="my-4">
           
             
-              <img src={sllid} 
+              <img src={sllid}  className="slider1"
              />
         
           </SwiperSlide>
           <SwiperSlide>
             
-              <img src={sllid2} />
+              <img src={sllid2}  className="slider1"/>
             
           </SwiperSlide>
           <SwiperSlide>
             
-              <img src={sllid3} />
+              <img src={sllid3} className="slider1" />
             
           </SwiperSlide>
 
           <SwiperSlide>
             
-              <img src={sllid4} />
+              <img src={sllid4} className="slider1" />
             
           </SwiperSlide>
           <SwiperSlide>
             
-              <img src={sllid5} />
+              <img src={sllid5}  className="slider1"/>
             
           </SwiperSlide>
           <SwiperSlide>
             
-              <img src={sllid6} />
+              <img src={sllid6} className="slider1" />
             
           </SwiperSlide>
         </Swiper>
@@ -155,7 +172,7 @@ function Slidersection() {
             </div>
           </SwiperSlide>
         </Swiper>
-      </div>
+      </div> 
     </>
   );
 }
