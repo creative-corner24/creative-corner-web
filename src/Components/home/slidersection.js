@@ -20,17 +20,36 @@ function Slidersection() {
   const [swiperRef, setSwiperRef] = useState(null);
 
   const appendNumber = useRef(500);
-  const prependNumber = useRef(1);
   
   return (
     <>
       <div>
         <h1 className=" mx-5 my-4 text-start  fontOtomanopee">Our Work</h1>
         <Swiper
+
+
+breakpoints={{
+  640: {
+    slidesPerView: 1,
+    initialSlide:8 ,
+
+  },
+  768: {
+    slidesPerView: 1,
+  },
+  1024: {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    initialSlide:0,
+  },
+  1440: {
+    slidesPerView: 1.5,
+    spaceBetween: 5,
+  },
+}}
           onSwiper={setSwiperRef}
           slidesPerView={1.5}
           centeredSlides={true}
-          spaceBetween={30}
           loop={true}
           pagination={{
             clickable: true,
@@ -39,37 +58,37 @@ function Slidersection() {
           modules={[Navigation, Pagination]}
           className=" myswiper"
         >
-          <SwiperSlide className="my-4">
+          <SwiperSlide >
           
             
-              <img src={sllid} 
+              <img src={sllid}  className="sllidr1"
              />
         
           </SwiperSlide>
           <SwiperSlide>
             
-              <img src={sllid2} />
+              <img src={sllid2} className="sllidr1" />
             
           </SwiperSlide>
           <SwiperSlide>
             
-              <img src={sllid3} />
+              <img src={sllid3} className="sllidr1" />
             
           </SwiperSlide>
 
           <SwiperSlide>
             
-              <img src={sllid4} />
+              <img src={sllid4} className="sllidr1" />
             
           </SwiperSlide>
           <SwiperSlide>
             
-              <img src={sllid5} />
+              <img src={sllid5} className="sllidr1" />
             
           </SwiperSlide>
           <SwiperSlide>
             
-              <img src={sllid6} />
+              <img src={sllid6} className="sllidr1" />
             
           </SwiperSlide>
         </Swiper>
