@@ -134,7 +134,7 @@ Strategy"
       <div className=" likecard ">
       
         <div className="row rowcard ">
-        <div className="position-relative ">
+        <div className=" ">
             <img
               src={free}
               className="position-absolute 
@@ -143,12 +143,12 @@ Strategy"
             />
           </div>
           <div className="col-md-7 cardcol ">
-            <p className="mb-5 Nunito">
+            <p className=" Nunito textop">
               <i className="bi bi-caret-right-fill trian"></i> IF you want to
               stop wasting time and money on  <br/>&emsp;flashy  campaigns that look good but
               generate zero sales
             </p>
-            <p className="mb-5 Nunito">
+            <p className=" Nunito textop">
               <i className="bi bi-caret-right-fill trian"></i>  IF you want to get
               the most out of your team and budget
             </p>

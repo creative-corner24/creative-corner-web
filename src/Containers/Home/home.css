@@ -296,6 +296,8 @@ margin-bottom: 2%;
   border-right-width: 1px;
   border-color: #062e3f;
 }
+.textop{  margin-bottom: 6%;
+}
 
 .trian {
   color: #419bc4;
@@ -347,15 +349,14 @@ margin-top: 1%;
   border-radius:40px;
 }
 
-.maindiv {
-  width: 200px;
-}
 
-.frree {    width: 12% !important;
+.frree {
+  width: 9% !important;
   position: absolute;
   left: 97%;
-  transform: translate(-20%, -38%);
+  transform: translate(-60%, -45%);
 }
+
 
 .Primarysection {
   background-image: url("../../../public/Assets/Frame.svg") !important;
@@ -363,8 +364,16 @@ margin-top: 1%;
   background-position: center center/cover;
   background-size: cover;
   width: auto;
-  margin-bottom: 2%;
+padding: 5% 10%;}
+
+.Result {
+  color: #7AC6E5;
 }
+
+/* 1SLIDER */
+
+.slider1{width: 600px ;}
+.swiper-button-prev, .swiper-button-next{color: black;}
 
 /* client */
 
@@ -407,9 +416,6 @@ margin-top: 1%;
   height: 200px;
 }
 
-.Result {
-  color: #7AC6E5;
-}
 
 
 .homebutton:hover {
@@ -531,12 +537,11 @@ width: 75%;}
 
 .rowcard {
   position: relative;
-  padding: 0% 3%;
 }
 
 .cardcol {
   padding-right: 1.5%;
-  
+  padding-top: 2%;
   font-size: medium;
   border-right-style: solid;
   border-right-width: 1px;
@@ -593,14 +598,31 @@ margin-top: 1%;
   border-radius:40px;
 }
 
-.frree {
-  width: 13% !important;
-    left: 97% !important;
-  transform: translate(-61%, -3%);
-  position: relative;
+.maindiv {
+  width: 200px;
 }
+<<<<<<< HEAD
 .sllidr1{width: 300px;}
+=======
+
+.frree {
+  width: 10% !important;
+  left: 97%;
+  transform: translate(-66%, -38%);
+
+}
+/* FOURTH PART */
+>>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
  
+.Result {font-size:x-large;
+}
+.Primarysection h4 {font-size: 20px;}
+
+.img-thumbnail {
+  height: 90%;
+}
+.slider1{width: 500px ;}
+
 }
 
 
@@ -685,11 +707,15 @@ margin-top: 1%;
 
   /* THIRD PART  */
   .frree {
-    width: 12% !important;
+    width: 11% !important;
     position: absolute;
-    left: 99%;
-    transform: translate(-32%, -38%);
-}
+    left: 97%;
+    transform: translate(-60%, -38%);
+  }
+
+
+  .slider1{width: 900px ;}
+
 
 }
 
@@ -822,8 +848,34 @@ margin-top: 1%;
   margin-left: 13%;
   display: block;
 width: 75%;}
+/* THIRD PART */
+ .cardcol{font-size: medium;}
+ .cardim{margin-top: 30%;}
+ .cardtex{font-size: medium;}
+ .cardbuttton{font-size: medium;
+  margin-left: 10% !important;
+  width: 80%;
+padding: 3% 3%; 
+margin-top: 5%;
+  margin-bottom: 4%;
+  font-weight: 300;
+  }
+  .frree{    width: 18% !important;
+    left: 97%;
+    transform: translate(-75%, -23%);}
+    .Primarysection {text-align: center;}
+    .Result {
+     font-size: x-large;
+    }
+.IMRDAR{width: 100%;
+  order: 1;}
+.IMRDAR2{order: 2;
+  width: 100%;}
+
+  .slider1{width: 300px ;}
 
 
+<<<<<<< HEAD
 .frree {
   width: 13% !important;
   position: relative !important;
@@ -834,6 +886,8 @@ width: 75%;}
 
 
  
+=======
+>>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
 } 
 
 
@@ -843,6 +897,14 @@ width: 75%;}
 
 
 
+<<<<<<< HEAD
+=======
+  /*
+
+  .mobilecal {
+    width: 100% !important;
+  }
+>>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
 
 
 
@@ -983,16 +1045,53 @@ width: 80%;}
  .ourser{margin-top: 2%;
   margin-bottom: 2%;}
 
+  /* THIRD PART */
+  .cardcol {
+    position: relative; /* Ensure positioning context for the pseudo-element */
+    padding-top: 10%; /* Optional padding for content */
+    padding-bottom: 20px; /* Padding below content to give space for the border */
+    font-size: small; /* Adjust font size as needed */
+    border-right: none;
+}
 
+.cardcol::after {
+    content: "";
+    position: absolute;
+    bottom: 10px; /* Adjust this value for padding between border and div bottom */
+    left: 10%; /* Center the border horizontally */
+    width: 80%; /* Border takes half of the div's width */
+    border-bottom: 1px solid #062e3f; /* Define border style, width, and color */
+}
 
-  .frree {
-    width: 13% !important;
-    position: absolute !important;
-    left: 97% !important;
-    transform: translate(-61%, -3%);
+ .cardim{margin-top: 10%;
+margin-left: 2%;}
+ .cardtex{font-size: medium;}
+ .cardbuttton{font-size: medium;
+  margin-left: 10% !important;
+  width: 80%;
+padding: 3% 3%; 
+margin-top: 5%;
+  margin-bottom: 4%;
+  font-weight: 300;
   }
+<<<<<<< HEAD
   .sllidr1{
     width: 120px;}
+=======
+  .frree{   width: 25% !important;
+    left: 92%;
+    transform: translate(-61%, -19%);}
+
+    /* FORTH PART */
+    .Primarysection {text-align: center;}
+    .Result {
+     font-size: x-large;
+    }
+.IMRDAR{order: 1;}
+.IMRDAR2{order: 2;}
+
+.slider1{width: 200px ;}
+>>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
 
 } 
 

@@ -2,20 +2,19 @@ import React, { Component } from "react";
 function Primarysection() {
   return (
     <div className="  Primarysection  ">
-      <div className="container py-3 ">
-      <h1 className="  Result fontOtomanopee  pt-5">Result you can count on</h1>
+      <h1 className="  Result fontOtomanopee  ">Result you can count on</h1>
       <h4 className="text-light ">
         Here we should put our last successful works
       </h4>
-      <div className="row  justify-content-between pt-5  ">
+      <div className="row  justify-content-between py-5  ">
 
-        <div className=" col-md-7 col-12 mt-5 pt-5  ">
+        <div className=" col-md-6 col-12  pt-5 IMRDAR2 ">
 
-        <h3 className="text-start text-white  ">
+        <h3 className="text-start text-white  Nunito  ">
               Mobile applications are specialize in crafting innovative and
               user-friendly
             </h3>
-          <p className=" text-start  text-white mt-4 ">
+          <p className=" text-start  text-white-50 mt-4   Nunito ">
           
            
             "our mobile application development service goes beyond just
@@ -28,7 +27,7 @@ function Primarysection() {
             lasting impact on your audience. "
           </p>
         </div>
-        <div className=" col-md-5 col-12 ">
+        <div className=" col-md-6 col-12 IMRDAR ">
           <img
             src="../../Assets/Nokia XR21.png"
             class="img-thumbnail "
@@ -39,19 +38,19 @@ function Primarysection() {
 
       <div className="row  justify-content-between  py-5 ">
 
-        <div className=" col-md-5 col-12 ">
+        <div className=" col-md-6 col-12 IMRDAR">
           <img
             src="../../Assets/Nokia XRd21.png"
             class="img-thumbnail "
             alt="hi "
           />
         </div>
-        <div className=" col-md-7 col-12   mt-5 pt-5 Nunito ">
+        <div className=" col-md-6 col-12   mt-5 pt-5 IMRDAR2 ">
           
-        <h3 className="text-start text-white   ">
+        <h3 className="text-start text-white   Nunito ">
             UI/UX Design, creating seamless and intuitive experiences for users{" "}
           </h3>
-          <p className=" text-start  text-white  mt-4  ">
+          <p className=" text-start  text-white-50  mt-4   Nunito ">
             
             
             “We believe in putting the user at the center of everything we do,
@@ -62,7 +61,6 @@ function Primarysection() {
           </p>
         </div>
       </div>
-    </div>
     </div>
   );
 }
