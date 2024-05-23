@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Virtual, Navigation, Pagination,EffectCoverflow } from "swiper/modules";
+import { Virtual, Navigation, Pagination } from "swiper/modules";
 import sllid from "./images/Rectangle 147.png";
 import sllid2 from "./images/Mobile_Presen.jpg";
 import slllid from "./images/5aleg.png";
@@ -23,12 +23,9 @@ function Slidersection() {
   
   return (
     <>
-
-
- <div>
+      <div>
         <h1 className=" mx-5 my-4 text-start  fontOtomanopee">Our Work</h1>
         <Swiper
-<<<<<<< HEAD
 
 
 breakpoints={{
@@ -53,90 +50,45 @@ breakpoints={{
           onSwiper={setSwiperRef}
           slidesPerView={1.5}
           centeredSlides={true}
-=======
-//   breakpoints = {{
-//     640: {
-//       slidesPerView: 1,
-//       spaceBetween: 10,
-//     },
-//     768: {
-//       slidesPerView: 1,
-//       spaceBetween: 10,
-//     },
-//     1024: {
-//       slidesPerView: 1,
-//       spaceBetween: 20,
-//     },
-//         }}
-          onSwiper={setSwiperRef}
-
-          slidesPerView={2}
-          // centeredSlides={true}
-          spaceBetween={10}
->>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
           loop={true}
           pagination={{
             clickable: true,
           }}
           navigation={true}
           modules={[Navigation, Pagination]}
-          // className=" myswiper"
+          className=" myswiper"
         >
           <SwiperSlide >
           
             
-<<<<<<< HEAD
               <img src={sllid}  className="sllidr1"
-=======
-              <img src={sllid}  className="slider1"
->>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
              />
         
           </SwiperSlide>
           <SwiperSlide>
             
-<<<<<<< HEAD
               <img src={sllid2} className="sllidr1" />
-=======
-              <img src={sllid2}  className="slider1"/>
->>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
             
           </SwiperSlide>
           <SwiperSlide>
             
-<<<<<<< HEAD
               <img src={sllid3} className="sllidr1" />
-=======
-              <img src={sllid3} className="slider1" />
->>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
             
           </SwiperSlide>
 
           <SwiperSlide>
             
-<<<<<<< HEAD
               <img src={sllid4} className="sllidr1" />
-=======
-              <img src={sllid4} className="slider1" />
->>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
             
           </SwiperSlide>
           <SwiperSlide>
             
-<<<<<<< HEAD
               <img src={sllid5} className="sllidr1" />
-=======
-              <img src={sllid5}  className="slider1"/>
->>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
             
           </SwiperSlide>
           <SwiperSlide>
             
-<<<<<<< HEAD
               <img src={sllid6} className="sllidr1" />
-=======
-              <img src={sllid6} className="slider1" />
->>>>>>> 9c46e8f8475f59cf3cd791198da4bf046d7b2e3b
             
           </SwiperSlide>
         </Swiper>
@@ -222,7 +174,7 @@ breakpoints={{
             </div>
           </SwiperSlide>
         </Swiper>
-      </div> 
+      </div>
     </>
   );
 }
