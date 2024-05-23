@@ -1,25 +1,8 @@
-*{overflow-x: hidden;}
 
-.stand1text{
-  font-size: xx-large;
-  top: 34%;
-  left: 45%;
-position: absolute;}
-.stand2text{
-  font-weight: lighter;
-  font-size: xx-large;
-  top: 45%;
-  left: 25%;
-position: absolute;}
-.secondsection{background-color:#E0ECFF
-  ;
-  width: 90%;
+.secondsection{background-color: rgb(194, 231, 251 , 0.5);
     height: 100%;
 border: none;
 border-radius: 150px;}
-.standsecntext1{font-weight: bolder;
-width: 70%; text-align: center;}
-.standsecntext2{}
 
 .flwla{width: 100%;}
 .manimg {    display: block;
@@ -63,16 +46,13 @@ margin-bottom: 2%;}
   !important ;}
 
 
-  @media screen and (min-width: 1441px) {}
-  *{overflow-x: hidden;}
 
-  @media screen and (device-width: 1024px) {}
-  *{overflow-x: hidden;}
+
 
 
   /* For Tablet View */
 @media screen and (min-device-width: 768px) 
-and (max-device-width: 1023px) {
+and (max-device-width: 1024px) {
   *{overflow-x: hidden;}
    
   /* .secondsectiontext{ font-size: small !important;} */
@@ -82,7 +62,7 @@ and (max-device-width: 1023px) {
 
 /* For Mobile Phones Portrait or Landscape View */
 @media screen
-  and (max-device-width: 766px) {
+  and (max-device-width: 640px) {
     *{overflow-x: hidden;}
 
   

@@ -4,11 +4,11 @@ console.log("props", props)
 
    return(
         <div className=" container position-relative secondsection">
-            <div className="text-center">
+            <div className="position-abolute pt-5 text-center">
                     <h3 className="
-                   standsecntext1" >{props.title}</h3>
-            <p className="standsecntext2
-                    ">{props.text}</p>
+                     mb-2 px-3" >{props.title}</h3>
+            <p className="
+                    py-5 px-2 ">{props.text}</p>
             </div>
         </div>
     )
