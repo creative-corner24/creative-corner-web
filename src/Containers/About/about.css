@@ -65,7 +65,8 @@ margin-bottom: 2%;}
       , #B5D1FF
       ) 30;}
 
-      .colimg{width: 70%;
+      .colimg{ 
+        width: 70%;
       height: 90%;}
 
       .nino1{font-size: large;
@@ -120,9 +121,18 @@ list-style-type: disc !important;
   }
   @media screen and (min-width: 1441px) {
     .whyusbackground{
-     
     height: 1000px; 
    }
+   .flwla2{padding-top: 0%;
+  padding-left: 10%;}
+   
+  .whyimg{
+    height: 90%;
+    width: 60%;
+  }
+  
+
+ 
   }
 
 
@@ -130,8 +140,26 @@ list-style-type: disc !important;
 @media screen and (min-device-width: 768px) 
 and (max-device-width: 1024px) {
   *{overflow-x: hidden;}
-   
-  /* .secondsectiontext{ font-size: small !important;} */
+  .flwla2{padding-top: 0%;
+    padding-left: 3%;}
+    .whyusbackground{
+      height: 300px; 
+     }
+    .whyimg{ padding-top: 19%;
+      height: 70%;
+      width: 90%;
+    }
+    .nino{color:rgb(3, 8, 16,0.7)
+      !important ;
+    font-size: small;}
+
+  .coloredlist{
+    margin-bottom: 0%;
+    font-size:large;
+    font-weight: bolder;
+  }
+  .help{font-size: large; }
+
 }
 
 
@@ -142,4 +170,45 @@ and (max-device-width: 1024px) {
     *{overflow-x: hidden;}
 
   
+/* first stander section  */
+.frist1{font-weight: bold;}
+  .frist2{ font-size:medium;}
+  
+  /* second stander section  */
+  .mainsecond{text-align: center;
+padding-top: 15%;  }
+  
+  .second1{ 
+    font-weight:bold;
+  font-size: large;}
+  
+  .second2{margin-top: 2%;
+    padding-left: 7%;
+  width: 90%;
+  font-size: medium;
+  }
+
+  .leftbord{ width: 100%;
+    border-left-style: none;
+    border-image: none;}
+      .rightbord{ border-right-style: none;
+
+        border-image: none;}
+        .whyusbackground{
+          height: 150px; 
+         }
+        .help{padding-left: 5% !important;
+           width: 70% !important;
+          font-size: small; }
+          .whyimg{ padding-left: 10%;
+            height: 90%;
+            width: 90%;
+          }
+          .headtextofrow{text-align: center;
+          font-size:x-large ;}
+        .nino1 {width: 90%;
+          padding-left: 5%;
+          text-align: center;}
+          .textofrow{text-align: center;}
+          .colimg{width: 100%;}
   }

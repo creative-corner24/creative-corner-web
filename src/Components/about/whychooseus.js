@@ -6,7 +6,7 @@ function WhyUs() {
     <>
    
       <div className="  whyusbackground ">
-        <h3  className="text-light ps-5 w-50  top-50  position-absolute " >
+        <h3  className="text-light ps-5 w-50  top-50  position-absolute  help" >
           Creativity Corner Where creativity <br/> meets technology to elevate your
           online presence and drive marketing growth.
         </h3>

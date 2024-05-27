@@ -23,7 +23,7 @@ function ThirdSection() {
           Mission and Vision: Shaping the Future of Marketing <br/>and Technology at
           Creative Corner
         </h1>
-        <div className="row justify-content-between my-5">
+        <div className="row justify-content-between">
         <div className="col-md-7  leftbord">
           <h4 className="textofrow">Our vision</h4>
           <p  className=" Nunito  nino1">

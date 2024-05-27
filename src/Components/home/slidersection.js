@@ -45,7 +45,7 @@ breakpoints={{
           onSwiper={setSwiperRef}
           slidesPerView={1.5}
           centeredSlides={true}
-          initialSlide={0}
+          initialSlide={3}
           loop={true}
           pagination={{
             clickable: true,

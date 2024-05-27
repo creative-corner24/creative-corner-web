@@ -558,6 +558,7 @@ width: 75%;}
   background-repeat: no-repeat;
   border-radius: 5%;
   margin-left: 10%;
+  margin-top: 3%;
 }
 
 .cardico {
@@ -700,6 +701,7 @@ margin-top: 1%;
     margin-left: 7% !important;
   
   }
+  
 
   /* THIRD PART  */
   .frree {
@@ -842,12 +844,12 @@ margin-top: 1%;
 width: 75%;}
 
 
-.frree {
+/* .frree {
   width: 13% !important;
   position: relative !important;
   left: 97% !important;
   transform: translate(-61%, -3%);
-}
+} */
 
 .myswiper1 {
   width: 100%;
@@ -1006,6 +1008,10 @@ padding-bottom: 8%;}
     height: 100%;
     overflow-x: hidden;
 }
+.cardim{margin-left: -2%;
+}
+.cardtex {
+width: 85%;}
 .LARGESIZE{display: none;}
 .OTHERDEVICE{margin-left: 9%;
   display: block;
@@ -1013,14 +1019,14 @@ width: 80%;}
  .ourser{margin-top: 2%;
   margin-bottom: 2%;}
 
+.cardcol{ border-right: none;}
 
-
-  .frree {
+  /* .frree {
     width: 13% !important;
     position: absolute !important;
     left: 97% !important;
     transform: translate(-61%, -3%);
-  }
+  } */
 
   .sllidr1{ width: 50%; }
 
