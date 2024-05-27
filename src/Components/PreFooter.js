@@ -13,7 +13,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
             Ready to take your business to the next level?{" "}
           </h3>
           <p className="small text-start px-5">
-            Contact us today to learn more about how Creative corner can help
+            Contact us today to learn more about how Creative corner can help <br/>
             you achieve your goals in the digital landscape.
           </p>
         </div>

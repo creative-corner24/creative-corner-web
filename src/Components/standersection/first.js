@@ -14,9 +14,9 @@ console.log("props", props)
                       
                     />
                     <div >
-            <h2 className="position-absolute bottom-50 start-50 translate-middle text-light  " >{props.text}</h2>
+            <h2 className="position-absolute bottom-50 start-50 translate-middle text-light  frist1  " >{props.text}</h2>
            
-            <p className=" m-4 position-absolute top-50 start-50 translate-middle  text-light" >{props.text2}</p>
+            <p className="  position-absolute top-50 start-50 translate-middle  text-light  frist2 " >{props.text2}</p>
             </div>
         </div>
     )

@@ -394,7 +394,7 @@ margin-top: 1%;
 .homebutton {
   background-color: white;
   border: none;
-  color: rgb(2, 2, 68);
+  color: #1B4486;
   padding: 80PX 10PX;
   text-align: center;
   text-decoration: none;
@@ -413,12 +413,12 @@ margin-top: 1%;
 
 
 .homebutton:hover {
-  background-color: rgb(2, 2, 68);
+  background-color: #1B4486;
   color: white;
 }
 
 .homepref {
-  background-color: #0C203F;
+  background-color: #3977E8;
   color: white;
   text-align: center;
   padding-left: 6px;
@@ -426,7 +426,7 @@ margin-top: 1%;
 }
 
 .MainFooter {
-  background-color: #2f60ae;
+  background-color: #1B4486;
 
   color: white;
   padding-top: 30px;
@@ -435,9 +435,11 @@ margin-top: 1%;
 
 }
 
-.imocarso {
-  width: 100% !important;
+:root {
+  --swiper-theme-color: black  !important;
 }
+
+
 
 
 
@@ -599,10 +601,24 @@ margin-top: 1%;
   transform: translate(-61%, -3%);
   position: relative;
 }
-.sllidr1{width: 300px;}
-.swiper-wrapper{transition-duration: 0ms;
+
+.myswiper1 {
+  width: 100%;
+}
+
+.sllidr1 {
+  padding-left: 15%;
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+
+/* .sllidr1{width: 300px;}
+.swiper-wrapper{transition-duration: 0ms !important;
   transition-delay: 0ms;
-  transform: translate3d(0px, 0px, 0px) !important;}
+  transform: translate3d(-50px, 0px, 0px) !important;
+  } */
 }
 
 
@@ -832,15 +848,24 @@ width: 75%;}
   left: 97% !important;
   transform: translate(-61%, -3%);
 }
-.sllidr1{width: 500px;}
-.swiper-wrapper{transition-duration: 0ms;
-  transition-delay: 0ms;
-  transform: translate3d(0px, 0px, 0px) !important;}
 
+.myswiper1 {
+  width: 100%;
+}
 
- 
-} 
+.sllidr1 {
+  padding-left: 15%;
+  width: 80%;
+  height: auto;
+  display: block;
+}
 
+/* .SwiperSlide{width: 500px !important;}
+.sllidr1{width: 500px;
+padding-left: 15% !important;}
+
+ */
+}
 
 
 
@@ -996,11 +1021,13 @@ width: 80%;}
     left: 97% !important;
     transform: translate(-61%, -3%);
   }
-  .sllidr1{
-    width: 200px;}
+
+  .sllidr1{ width: 50%; }
+
+  /*
     .swiper-wrapper{transition-duration: 0ms;
       transition-delay: 0ms;
-      transform: translate3d(0px, 0px, 0px) !important;}
+      } */
 } 
 
 
@@ -1008,26 +1035,3 @@ width: 80%;}
 
 
 
-/* .butncolo1 {  
-    margin-top: 3%;
-    border-radius: 15px;
-  }
-    .butncolo2 {   margin-top: 3%;
-  
-       border-radius: 15px;
-  } */
-
-/* 
-      .cardico{ 
-        width: 40%;
-        margin-left: 30%;}
-        
-        .cardtex{
-          font-size: medium;
-          text-align: center !important;
-          width: 70%;
-          margin-left: 2%;
-        margin-bottom:2%;}
-
-        .small{padding: 1% 3%;}
-        .mobilecal{width: 100%;} */
