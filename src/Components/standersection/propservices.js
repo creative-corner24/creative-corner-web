@@ -15,7 +15,7 @@ console.log("props", props)
     />
     <div className=" position-absolute top-0  ">
     <img className="servicesicon " src={props.imgicon} alt="Second slide" />
-    <h4 className=" text-center mx-2 my-3">{props.text}</h4>
+    <h4 className=" text-center Nunito  mx-2 my-3">{props.text}</h4>
     </div>
   </div>
 

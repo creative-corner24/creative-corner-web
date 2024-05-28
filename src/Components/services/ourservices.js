@@ -2,7 +2,7 @@ import React from "react";
 import bgim from "./images/Frame 190.png";
 import iconim1 from "./images/1icon.png";
 import iconim4 from "./images/4icon.png";
-import iconim2 from"./images/icon1.png";
+import iconim2 from "./images/icon1.png";
 import iconim3 from "./images/icon3.png";
 import CardServices from "../standersection/propservices";
 import { useState } from "react";
@@ -44,7 +44,9 @@ function OurServices() {
   return (
     <>
       <div className="">
-        <h1 className="text-center  fontOtomanopee ">Our services include</h1>
+        <h1 className=" text-center my-5 fontOtomanopee ">
+          Our services include
+        </h1>
         <Row className="mx-5">
           <div className="col-md-3 ourservicescard">
             <Button
@@ -212,7 +214,9 @@ function OurServices() {
       </div>
 
       <div className=" container  maindivee">
-        <div className="maindivtext"><h1 className="mx-4 fontOtomanopee  ">FQA</h1></div>
+        <div className="maindivtext">
+          <h1 className="mx-4 fontOtomanopee  ">FQA</h1>
+        </div>
         <div className="container">
           <div className="row  ">
             <Button
@@ -220,29 +224,30 @@ function OurServices() {
               variant={activeSection === 1 ? "red" : "red"}
             >
               <div className="row impoo">
-              <div className="col-md-11">
-                <li>
-                How long the marketing plan takes to succeed?
-                </li>
+                <div className="col-md-11">
+                  <li className="fw-bold Nunito">
+                    How long the marketing plan takes to succeed?
+                  </li>
+                </div>
+                <div className="col-md-1">
+                  {" "}
+                  <button type="button" class="btn betoo  ">
+                    +
+                  </button>
+                </div>
               </div>
-              <div className="col-md-1">  <button type="button" class="btn btn-primary">+</button>
-</div>
-</div>
             </Button>
             {activeSection === 1 && (
-            <div className="">
-              <p class="">
-                The time it takes for a marketing plan to succeed varies based
-                on factors like goals, industry, and strategy complexity.
-                Generally, it can range from a few months for short-term
-                campaigns to a year or more for comprehensive strategies.
-              </p>
-            </div>
-          )}
+              <div className="">
+                <p class="">
+                  The time it takes for a marketing plan to succeed varies based
+                  on factors like goals, industry, and strategy complexity.
+                  Generally, it can range from a few months for short-term
+                  campaigns to a year or more for comprehensive strategies.
+                </p>
+              </div>
+            )}
           </div>
-
-
-
 
           <div className="row ">
             <Button
@@ -250,27 +255,30 @@ function OurServices() {
               variant={activeSection === 1 ? "red" : "red"}
             >
               <div className="row impoo">
-
-              <div className="col-md-11">
-
-<li>                Can social media marketing really help my business?</li>
-              </div>
-              <div className="col-md-1"><button type="button" class="btn btn-primary">+</button></div>
-             
+                <div className="col-md-11">
+                  <li className="fw-bold Nunito">
+                    {" "}
+                    Can social media marketing really help my business?
+                  </li>
+                </div>
+                <div className="col-md-1">
+                  <button type="button" class="btn betoo">
+                    +
+                  </button>
+                </div>
               </div>
             </Button>
             {activeSection === 2 && (
-            <div className="">
-              <p class="">
-                The time it takes for a marketing plan to succeed varies based
-                on factors like goals, industry, and strategy complexity.
-                Generally, it can range from a few months for short-term
-                campaigns to a year or more for comprehensive strategies.
-              </p>
-            </div>
-          )}
+              <div className="">
+                <p class="">
+                  The time it takes for a marketing plan to succeed varies based
+                  on factors like goals, industry, and strategy complexity.
+                  Generally, it can range from a few months for short-term
+                  campaigns to a year or more for comprehensive strategies.
+                </p>
+              </div>
+            )}
           </div>
-
 
           <div className="row ">
             <Button
@@ -278,37 +286,36 @@ function OurServices() {
               variant={activeSection === 1 ? "red" : "red"}
             >
               <div className="row  impoo ">
-              <div className="col-md-11">
-              <li>
-                What are the services suggested for my startup business
-                </li>
+                <div className="col-md-11">
+                  <li className="fw-bold Nunito"  >
+                    What are the services suggested for my startup business
+                  </li>
+                </div>
+                <div className="col-md-1">
+                  <button type="button" class="btn betoo">
+                    +
+                  </button>
+                </div>
               </div>
-              <div className="col-md-1"><button type="button" class="btn btn-primary">+</button></div>
-</div>
             </Button>
 
-
             {activeSection === 3 && (
-            <div className="">
-              <div class="">
-                <ul>
-                  For your startup business, we recommend:
-                  <li> Business strategy development</li>
-                  <li>Market research and analysis</li>
-                  <li>Brand identity and positioning</li>
-                  <li>Website development and digital presence</li>
-                  <li>marketing strategies</li>
-                  These services are tailored to address your startup's specific
-                  needs and support your growth and success.
-                </ul>
+              <div className="">
+                <div class="">
+                  <ul>
+                    For your startup business, we recommend:
+                    <li> Business strategy development</li>
+                    <li>Market research and analysis</li>
+                    <li>Brand identity and positioning</li>
+                    <li>Website development and digital presence</li>
+                    <li>marketing strategies</li>
+                    These services are tailored to address your startup's
+                    specific needs and support your growth and success.
+                  </ul>
+                </div>
               </div>
-            </div>
-          )}
+            )}
           </div>
-
-
-
-
 
           <div className="row ">
             <Button
@@ -316,31 +323,32 @@ function OurServices() {
               variant={activeSection === 1 ? "red" : "red"}
             >
               <div className="row impoo">
-              <div className="col-md-11">
-                <li>
-                Does your digital agency offer ongoing help with our new site
-                once it's launched? 
-                </li>
+                <div className="col-md-11">
+                  <li className="fw-bold Nunito"  >
+                    Does your digital agency offer ongoing help with our new
+                    site once it's launched?
+                  </li>
+                </div>
+                <div className="col-md-1">
+                  <button type="button" class="btn betoo">
+                    +
+                  </button>
+                </div>
               </div>
-              <div className="col-md-1">
-              <button type="button" class="btn btn-primary">+</button>
-              </div></div>
             </Button>
             {activeSection === 4 && (
-            <div className="">
-              <p class="">
-                Absolutely! At our digital agency, we provide ongoing support
-                for your website post-launch, including technical assistance,
-                content updates, security monitoring, performance optimization,
-                SEO maintenance, and analytics reporting. We're committed to
-                ensuring your website remains effective and secure over time.
-              </p>
-            </div>
-          )}
+              <div className="">
+                <p class="">
+                  Absolutely! At our digital agency, we provide ongoing support
+                  for your website post-launch, including technical assistance,
+                  content updates, security monitoring, performance
+                  optimization, SEO maintenance, and analytics reporting. We're
+                  committed to ensuring your website remains effective and
+                  secure over time.
+                </p>
+              </div>
+            )}
           </div>
-
-
-
 
           <div className="row ">
             <Button
@@ -348,34 +356,36 @@ function OurServices() {
               variant={activeSection === 1 ? "red" : "red"}
             >
               <div className="row impoo ">
-              <div className="col-md-11">
-                <li>
-                Does your digital agency offer ongoing help with our new site
-                once it's launched?
-                </li>
+                <div className="col-md-11">
+                  <li className="fw-bold Nunito"  >
+                    Does your digital agency offer ongoing help with our new
+                    site once it's launched?
+                  </li>
+                </div>
+                <div className="col-md-1">
+                  <button type="button" class="btn betoo">
+                    +
+                  </button>
+                </div>{" "}
               </div>
-             <div className="col-md-1"><button type="button" class="btn btn-primary">+</button>
-             </div> </div> 
             </Button>
 
             {activeSection === 5 && (
-          <div className="">
-            <p class="">
-              Yes, we offer content creation and image sourcing services for
-              your website. Our team of skilled writers can craft engaging and
-              SEO-friendly content tailored to your brand and target audience.
-              Additionally, we can assist in selecting high-quality images that
-              align with your brand identity and enhance the visual appeal of
-              your website. Whether you need website copy, blog posts, product
-              descriptions, or imagery, we're here to help create compelling
-              content that resonates with your audience and drives results
-            </p>
+              <div className="">
+                <p class="">
+                  Yes, we offer content creation and image sourcing services for
+                  your website. Our team of skilled writers can craft engaging
+                  and SEO-friendly content tailored to your brand and target
+                  audience. Additionally, we can assist in selecting
+                  high-quality images that align with your brand identity and
+                  enhance the visual appeal of your website. Whether you need
+                  website copy, blog posts, product descriptions, or imagery,
+                  we're here to help create compelling content that resonates
+                  with your audience and drives results
+                </p>
+              </div>
+            )}
           </div>
-        )}
-          </div>
-
-
-
 
           <div className="row ">
             <Button
@@ -383,36 +393,33 @@ function OurServices() {
               variant={activeSection === 1 ? "red" : "red"}
             >
               <div className="row impoo ">
-
-              <div className="col-md-11">
-                <li>
-                Does your digital agency offer ongoing help with our new site
-                once it's launched?
-                </li>
-              </div>
-              <div className="col-md-1">
-              <button type="button" class="btn btn-primary">+</button>
-              </div>
+                <div className="col-md-11">
+                  <li className="fw-bold Nunito"   >
+                    Does your digital agency offer ongoing help with our new
+                    site once it's launched?
+                  </li>
+                </div>
+                <div className="col-md-1">
+                  <button type="button" class="btn betoo">
+                    +
+                  </button>
+                </div>
               </div>
             </Button>
             {activeSection === 6 && (
-            <div className="">
-              <div class="">
-          
-                <ul>
-                  For your startup business, we recommend:
-                  <li> Expertise and customized solutions.</li>
-                  <li>Increased online visibility and lead generation.</li>
-                  <li>Data-driven strategies and transparent reporting.</li>
-                  <li>Strategic partnerships for sustainable growth."</li>
-                  
-                </ul>
+              <div className="">
+                <div class="">
+                  <ul>
+                    For your startup business, we recommend:
+                    <li> Expertise and customized solutions.</li>
+                    <li>Increased online visibility and lead generation.</li>
+                    <li>Data-driven strategies and transparent reporting.</li>
+                    <li>Strategic partnerships for sustainable growth."</li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          )}   
+            )}
           </div>
-
-
 
           <div className="row ">
             <Button
@@ -420,35 +427,36 @@ function OurServices() {
               variant={activeSection === 1 ? "red" : "red"}
             >
               <div className="row impoo">
-              <div className="col-md-11">
-                <li>
-                Does your digital agency offer ongoing help with our new site
-                once it's launched?
-                </li>
-              </div>
-              <div className="col-md-1"><button type="button" class="btn btn-primary">+</button>
-              </div>
+                <div className="col-md-11">
+                  <li className="fw-bold Nunito"   >
+                    Does your digital agency offer ongoing help with our new
+                    site once it's launched?
+                  </li>
+                </div>
+                <div className="col-md-1">
+                  <button type="button" class="btn betoo">
+                    +
+                  </button>
+                </div>
               </div>
             </Button>
             {activeSection === 7 && (
-            <div className="">
-              <div class="">
-          
-                <ul>
-                  <li> Facebook: Wide reach and community-building.</li>
-                  <li>Instagram: Visual content for younger demographics.</li>
-                  <li>Twitter: Real-time engagement and updates.</li>
-                  <li>LinkedIn: Professional networking and B2B marketing.</li>
-                  
-                </ul>
+              <div className="">
+                <div class="">
+                  <ul>
+                    <li> Facebook: Wide reach and community-building.</li>
+                    <li>Instagram: Visual content for younger demographics.</li>
+                    <li>Twitter: Real-time engagement and updates.</li>
+                    <li>
+                      LinkedIn: Professional networking and B2B marketing.
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          )}            
+            )}
           </div>
         </div>{" "}
       </div>
-
-     
     </>
   );
 }
