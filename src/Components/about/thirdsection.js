@@ -33,14 +33,14 @@ function ThirdSection() {
             creativity, innovation, and a commitment to our clients' success.
           </p>
         </div>
-        <div className="col-md-5 ">
+        <div className="col-md-5 imgoofleftbord ">
         <img src={frame}
         className="colimg"
         alt="th"/>
         </div>
         </div>
         <div className="row ustify-content-between my-5 ">
-        <div className="col-md-5  ">
+        <div className="col-md-5 imgofrightbord ">
             <img src={frame2}
             className="colimg"/>
         </div>
