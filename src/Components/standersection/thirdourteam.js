@@ -7,15 +7,15 @@ console.log("props", props)
 
            <div className=" frist position-relative">
             <img
-                      className="d-block w-100 "
+                      className="d-block w-100 mt-5 "
                       src= {props.img}
                       alt="Second slide"
                       
                     />
                     <div >
-            <h2 className="position-absolute bottom-50 start-50 translate-middle text-light mobiedite " >{props.text}</h2>
+            <h2 className=" mobiedite " >{props.text}</h2>
           
-            <p className=" m-1 position-absolute top-50 start-50 translate-middle  text-light mobiedit " >{props.text2}</p>
+            <p className="   mobiedit " >{props.text2}</p>
             </div>
         </div>
     )

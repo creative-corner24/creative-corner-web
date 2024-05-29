@@ -9,7 +9,7 @@ console.log("props", props)
 
     <div className="CardServ position-relative ">
     <img
-      className=" coversicon  m-2"
+      className=" coversicon "
       src={bgim}
       alt="Second slide"
     />

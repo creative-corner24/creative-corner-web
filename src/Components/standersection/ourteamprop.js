@@ -11,10 +11,10 @@ console.log("props", props)
       src={props.img}
       alt="Second slide"
     />
-    <div className=" memberdata  position-absolute top-100 start-50 translate-middle">
+    <div className=" memberdata   ">
     <i className="linkinic  bi bi-linkedin"></i>
-    <p className="postion">{props.text}</p>
-    <h6 className="name ">{props.text2}</h6>
+    <p className="postionn">{props.text}</p>
+    <p className="name ">{props.text2}</p>
 
     </div>
   </div>

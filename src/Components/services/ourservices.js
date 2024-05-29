@@ -47,7 +47,7 @@ function OurServices() {
         <h1 className=" text-center my-5 fontOtomanopee ">
           Our services include
         </h1>
-        <Row className="mx-5">
+        <Row className="rowofservicescards">
           <div className="col-md-3 ourservicescard">
             <Button
               onClick={() => handleSectionChange(1)}

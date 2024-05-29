@@ -1,42 +1,160 @@
-/* .member{
+ /* THIRD SECTION  */
+ .mobiedit {
+   transform: translate(-50%, -50%);
+   left: 51%;
+   top: 50%;
+   position: absolute;
+   color: white;
+   font-size: x-large !important;
+   margin-top: 2% !important;
+ }
+.postionn{margin-bottom: 1%;}
+ 
+ .mobiedite {
+   transform: translateX(-50%);
+   left: 50%;
 
-} */
+   top: 30%;
+   position: absolute;
+   color: white;
+ }
 
-.memberdata{
- padding: 1% 10%;
-    background-color: white;
-    text-align: center;
-    border-radius: 5%;
-}
-.linkinic{color: blue;}
 
-.mobiedit{font-size:large !important;
-margin-top: 2% !important;}
+ /* TEAM SECTION */
+ .TEAMROW {
+   margin-bottom: 10%;
+   padding-left: 2%;
+ }
+
+ .memberdata {
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   transform: translate(-60%, -50%);
+   padding: 1% 10%;
+   background-color: white;
+   text-align: center;
+   border-radius: 5%;
+ }
+
+ .linkinic {
+   color: #2A7ED1;
+ }
+
+ .name{font-weight: bold;
+margin-bottom: 0%;}
+
+
+
+
+
+
+
+
+
+
+ /* media qauiry */
+
+ @media screen and (device-width: 1024px) {
+   .mobiedit {
+     text-align: center;
+     top: 55%;
+     font-size: large !important;
+     width: 80%;
+   }
+   .TEAMROW {
+    margin-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+  }
+   .memberdata { align-items: center;
+    width: 60%;
+    transform: translate(-50%, -100%);}
+ }
+
+
+
+
+ @media screen and (min-width: 1441px) {
+
+   .mobiedit {
+     text-align: center;
+     top: 50%;
+     font-size: xx-large !important;
+     width: 80%;
+   }
+   .mobiedite { top: 20%;
+     font-size: 500%;}
+
+     .TEAMROW {
+padding-left: 5%;    }
+
+   .memberdata { align-items: center;
+    width: 50%;
+    transform: translate(-80%, -50%);}
+ }
 
 
 
  /* For Tablet View */
- @media screen and (min-device-width: 768px) 
- and (max-device-width: 1024px) {
-   *{overflow-x: hidden;}
+ @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+   * {
+     overflow-x: hidden;
+   }
 
-  
-   
+   .mobiedit {
+     width: 70%;
+     top: 60%;
+     font-size: large !important;
+   }
+
+   .mobiedite {
+     transform: translateX(-50%);
+
+     bottom: 0;
+     position: absolute;
+     color: white;
+   }
+   .memberdata { align-items: center;
+    width: 70%;
+    margin: 0% !important;
+    transform: translate(-50%, -100%);
+    padding: 1% 0%;}
+
  }
- 
- 
- 
+
+
+
  /* For Mobile Phones Portrait or Landscape View */
- @media screen
-   and (max-device-width: 640px) {
-     *{overflow-x: hidden;}
-
-
-     .mobiedit{font-size: x-small;
-        text-align: left !important;}
+ @media screen and (max-device-width: 640px) {
+   * {
+     overflow-x: hidden;
+   }
    
+
+   .mobiedit {
+     left: 51%;
+     top: 70%;
+     font-size: small !important;
+     width: 90%;
+   }
+
+   .mobiedite {
+     left: 50%;
+     font-size: medium;
+     top: 40%;
    }
 
 
+   .team {
+    padding: 5%;
+    
+  }
 
+  .memberdata { align-items: center;
+    width: 50%;
+    transform: translate(-50%, -100%);
+    padding: 1% 0%;}
 
+ }
