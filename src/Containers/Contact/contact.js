@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React, { Component , useEffect } from "react";
 import "./contact.css";
-
 import MainFooter from "../../Components/Footer";
 import FirstSection from "../../Components/standersection/first";
 import SecondSection from "../../Components/standersection/second";
@@ -8,10 +7,13 @@ import slid from "../../Components/contact/images/picture-2.png";
 import Calenderr from "../../Components/contact/calender";
 import { AiTwotoneMail } from "react-icons/ai";
 import { FaPhoneAlt } from "react-icons/fa";
-
+import{scrollToTop} from "../../utils/shared";
 
 
 function Contact() {
+  useEffect(() => {
+    scrollToTop()
+  }, [])
   return (
     <>
       <div>
@@ -22,12 +24,7 @@ function Contact() {
         />
       </div>
 
-      <div className="mt-3">
-        <SecondSection
-          title="Fuel Your Brand's Growth: Customized Marketing Solutions | Creative Corner Agency "
-          text="Our team of experts is fueled by passion and expertise, dedicated to crafting digital masterpieces that stand out in the crowded online landscape. Whether you're a budding startup or an established brand, we're here to elevate your online presence to new heights with our customized marketing solutions."
-        />
-      </div>
+      
       <div><Calenderr/></div>
 <div className="afterfooter" >
       <div className="  row mx-3  px-5 container ">

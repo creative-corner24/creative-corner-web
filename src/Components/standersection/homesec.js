@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const SECONDPART =(props)=> {
-console.log("props", props)
 
    return(
     <div className="He  ">

@@ -49,7 +49,7 @@ function Navbarcompo() {
             <Nav.Link as={Link} to="/Services" className="link-light mx-4 ">
               Services
             </Nav.Link>
-            <Nav.Link as={Link} to="/our team" className="link-light mx-4  mr-5 ">
+            <Nav.Link as={Link} to="/our-team" className="link-light mx-4  mr-5 ">
               Our Team
             </Nav.Link>
             {isButtonVisible && (

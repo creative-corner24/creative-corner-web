@@ -1,7 +1,6 @@
 import React from "react";
 
 const AnomationServices2 = (props) => {
-  console.log("props", props);
 
   return (
     <>

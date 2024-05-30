@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component,useEffect} from "react";
 import "./ourteam.css";
 import MainFooter from "../../Components/Footer";
 import PreFooter from "../../Components/PreFooter";
@@ -8,7 +8,12 @@ import slid from "../../Components/ourteam/images/section.png";
 import sol from "../../Components/ourteam/images/Frame 19.png";
 import MainOurTeam from "../../Components/ourteam/mainourteam";
 import Thirdsection from "../../Components/standersection/thirdourteam";
+import{scrollToTop} from "../../utils/shared";
+
 function Ourteam() {
+  useEffect(() => {
+    scrollToTop()
+  }, [])
   return (
     <>
       <div >
