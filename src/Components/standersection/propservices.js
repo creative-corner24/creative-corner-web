@@ -2,7 +2,6 @@ import React from "react";
 import bgim from "../services/images/opacity0.png";
 
 const CardServices =(props)=> {
-console.log("props", props)
 
    return(
 

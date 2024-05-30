@@ -26,7 +26,7 @@ const Texttestimonal = () => {
           list={sliderList}
           slidesPerView768={3}
           slidesPerView1024={4}
-          spaceBetween1024={30}
+          spaceBetween1024={10}
         />
       </div>
     </>

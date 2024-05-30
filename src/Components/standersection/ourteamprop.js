@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const OurTeamProp =(props)=> {
-console.log("props", props)
 
    return(
     <div className="team position-relative ">

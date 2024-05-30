@@ -1,6 +1,5 @@
 import React from "react";
 const SecondSection =(props)=> {
-console.log("props", props)
 
    return(
         <div className=" container position-relative secondsection">

@@ -4,7 +4,6 @@ import { register } from "swiper/element/bundle";
 register();
 
 function SliderComponent({id, list, slidesPerView768, slidesPerView1024, spaceBetween1024, loop }) {
-    console.log('sliderList', list)
   useEffect(() => {
     // swiper element
     const swiperEl = document.getElementById(id);
