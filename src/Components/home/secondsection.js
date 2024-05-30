@@ -9,7 +9,7 @@ function Primarysection() {
       </h4>
       <div className="row  justify-content-between pt-5  ">
 
-        <div className=" col-md-7 col-12 mt-5 pt-5  rdercol ">
+        <div className=" col-md-7 col-12 pt-5  rdercol ">
 
         <h3 className="text-start text-white  ">
               Mobile applications are specialize in crafting innovative and
@@ -28,7 +28,7 @@ function Primarysection() {
             lasting impact on your audience. "
           </p>
         </div>
-        <div className=" col-md-5 col-12  rdercol2 ">
+        <div className=" col-md-5 col-12 rdercol2 ">
           <img
             src="../../Assets/Nokia XR21.png"
             class="img-thumbnail "

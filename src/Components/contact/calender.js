@@ -31,7 +31,7 @@ function Calender() {
 
         <div className="   text-center texto">
           
-          <h1 className="bi bi-calendar3">
+          <h1 className="bi bi-calendar3  clendartitle">
             {" "}
             Schedule a free meeting with our experts
 

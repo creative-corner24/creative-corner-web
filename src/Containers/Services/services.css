@@ -193,5 +193,10 @@
   font-weight: bold;
   width: 90%;
 }
+.ourservicescard {
+  width: 50%;
+  display: flex;
+  padding-left: 0%;
+}
 
 }

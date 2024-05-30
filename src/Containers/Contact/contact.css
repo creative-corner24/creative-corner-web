@@ -57,19 +57,33 @@ width: 150px;
     overflow-x: hidden;
   }
 
+/* first stander section  */
+.frist1{font-weight: bold;}
+  .frist2{ margin-top: 5%;
+    font-size:medium;}
 
 }
 
 
 
 /* For Mobile Phones Portrait or Landscape View */
-@media screen and (max-device-width: 640px) {
-  .mainrow {
+@media screen and (max-device-width: 700px) {
+  .mainroow {
     
     padding-left: 0%;
   }
   .rightb {
     border-right-style: none;
   }
+
+
+/* first stander section  */
+.frist1{font-weight: bold;
+font-size: large;}
+  .frist2{ margin-top: 5%;
+    font-size:small;}
  
+    .clendartitle{ width: 85%;
+      padding-top: 5%;
+      font-size: large;}
 }

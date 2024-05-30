@@ -125,17 +125,7 @@ function OurServices() {
                     iconname5={<TbInputSearch />}
                     lifrtex5="SEO/SEM Services"
                     lisectex5="optimizes your online presence, enhancing visibility and driving targeted traffic to your website through strategic techniques, maximizing your digital success."
-                    // iconname6={<IoGitMergeSharp />}
-                    // lifrtex6="Affiliate Marketing"
-                    // lisectex6="amplifies your reach by partnering with influencers and affiliates, driving sales and brand awareness through strategic collaborations that benefit both parties."
-
-                    // iconname7={<IoGitMergeSharp />}
-                    // lifrtex7="•	Marketing strategy"
-                    // lisectex7="crafts tailored plans to elevate your brand, connecting you with your audience effectively and driving success in the market"
-
-                    // iconname8={<IoGitMergeSharp />}
-                    // lifrtex8="SWOT analysis"
-                    // lisectex8="identifies your strengths, weaknesses, opportunities, and threats, providing a clear roadmap for strategic decision-making and business growth."
+                   
                   />
                 </div>
               </div>

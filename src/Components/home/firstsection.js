@@ -120,7 +120,7 @@ Strategy"
       </div>
       <a
             href="/Services"
-            className="btn  OTHERDEVICE  mt-3 partbutton "
+            className="btn  OTHERDEVICE  mb-5 partbutton "
             role="button"
             aria-pressed="true"
           >
