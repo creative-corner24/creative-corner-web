@@ -1,56 +1,75 @@
+.mainrow {
+  margin: 5%;
 
-.mainrow{
-background-color: rgba(226, 227, 227, 0.1);
-align-items: center;
-border-color: #344750;
-border-radius: 5%;
-border-style: solid;
-border-width: 1px;
+  background-color: rgba(250, 249, 249, 0.1);
+
+  border-color: rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  border-style: solid;
 }
 
+.calennd {
+  padding-top: 3%;
+  padding-left: 7%;
+}
 
+.rightb {
+  padding: 5%;
+}
 
-.freeicon{
+.freeicon {
   padding-right: 3.5%;
   padding-top: 2.5%;
-width: 15%;
-height: 100%;
+  width: 15%;
+  height: 100%;
 
 }
-.texto{border-color: #344750;
-  border-radius: 5%;
-border-bottom-style: solid;  border-width: 1px;}
 
-.rightb{
-    border-right-style: solid;
-  border-color: #344750;
+.texto {
+  border-color: rgba(0, 0, 0, 0.15);
+
+  border-bottom-style: solid;
+}
+
+.rightb {
+  border-right-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
 }
 
 
-.afterfooter{background-color: rgb(170, 162, 162 , .1);
+.afterfooter {
+  background-color: rgb(170, 162, 162, .1);
 
-padding: 3% 3%;}
+  padding: 3% 3%;
+}
 
 
-.freecalend{padding-left: 100% !important;}
+.freecalend {
+  padding-left: 100% !important;
+}
 
 
 
 
 /* For Tablet View */
-@media screen and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
-    *{overflow-x: hidden;}
-   
-  .mobilecal {width: 100% !important;}
-  
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  * {
+    overflow-x: hidden;
+  }
+
+
 }
 
 
 
 /* For Mobile Phones Portrait or Landscape View */
-@media screen
-    and (max-device-width: 640px) {
+@media screen and (max-device-width: 640px) {
+  .mainrow {
     
-     .mobilecal{width: 100%;}
-    }
+    padding-left: 0%;
+  }
+  .rightb {
+    border-right-style: none;
+  }
+ 
+}

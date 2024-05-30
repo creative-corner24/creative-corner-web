@@ -39,7 +39,7 @@ function ThirdSection() {
         alt="th"/>
         </div>
         </div>
-        <div className="row ustify-content-between my-5 ">
+        <div className="row ustify-content-between mt-5 ">
         <div className="col-md-5 imgofrightbord ">
             <img src={frame2}
             className="colimg"/>

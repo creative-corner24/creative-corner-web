@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import "./about.css";
 import FirstSection from "../../Components/standersection/first";
 import SecondSection from "../../Components/standersection/second";
@@ -6,9 +6,13 @@ import slid from "../../Components/about/images/slid.png";
 import ThirdSection from "../../Components/about/thirdsection";
 import WhyUs from "../../Components/about/whychooseus";
 import PreFooter from "../../Components/PreFooter";
-import MainFooter from "../../Components/Footer"
+import MainFooter from "../../Components/Footer";
+import { scrollToTop } from "../../utils/shared";
 
 function About() {
+  useEffect(() => {
+    scrollToTop()
+  }, [])
   return (
     <>
       <div>

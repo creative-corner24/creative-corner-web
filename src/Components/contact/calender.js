@@ -40,7 +40,7 @@ function Calender() {
           </div>
           {/* <div className="col-md-1" >   <img src={freee} alt="Description of the image" fluid /></div> */}
         </div>
-        <div className="col-md-6 text-center my-5 rightb ">
+        <div className="col-md-6 text-center rightb ">
           <p>
             We are here to help and answer any query you might have. We look
             forward to hearing from you!
@@ -74,7 +74,7 @@ function Calender() {
             </Button>
           </Form>
         </div>
-        <div className="col-md-6 text-center my-4 w-50  ">
+        <div className="col-md-6 text-center calennd  ">
           <p className="my-4">
             Choose the most convenent day for you and we will contact with you
             on it.

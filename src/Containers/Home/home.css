@@ -157,7 +157,9 @@ video {
 /* SECONDPART-PROPS */
 .mainnrow {
   height: 100%;
-padding: 4% 5%;}
+padding-top: 6%;
+padding-left: 4%;
+padding-right: 4%;}
 .branchrow{height: 50% !important;}
 .cardbackground1 {
   background-image: url('../../Components/home/images/Frame\ 188.png');
@@ -432,8 +434,9 @@ margin-top: 1%;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-
 }
+.firstlink{margin-right: 4%;}
+.footer-item{margin-right: 4%;}
 
 :root {
   --swiper-theme-color: black  !important;
@@ -608,10 +611,9 @@ margin-top: 1%;
 }
 
 .sllidr1 {
-  padding-left: 15%;
-  width: 80%;
-  height: auto;
-  display: block;
+  width: 90% !important;
+  /* height: auto;
+  display: block; */
 }
 
 
@@ -842,7 +844,12 @@ margin-top: 1%;
   margin-left: 13%;
   display: block;
 width: 75%;}
-
+.cardim{margin-top: 50%;
+margin-left: 0%;
+margin-right: 0%;}
+.cardtex{font-size: large;}
+.cardbuttton{ width: 75%;
+  font-size: medium;}
 
 /* .frree {
   width: 13% !important;
@@ -1016,6 +1023,8 @@ padding-bottom: 8%;}
 width: 85%;}
 .LARGESIZE{display: none;}
 .OTHERDEVICE{margin-left: 9%;
+  margin-bottom: 4%;
+  border-radius: 10px;
   display: block;
 width: 80%;}
  .ourser{margin-top: 2%;
@@ -1030,6 +1039,13 @@ width: 80%;}
     transform: translate(-61%, -3%);
   } */
 
+
+
+
+  .homebutton:hover {
+    background-color: #1B4486;
+    color: white;
+  }
   .sllidr1{ width: 50%; }
 
   /*

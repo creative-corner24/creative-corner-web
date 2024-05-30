@@ -1,8 +1,32 @@
+/* first stander section  */
+.frist1 {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.frist2 {
+  font-size: larger;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* second stander section  */
+.secondsection {
+  background-color: #E0ECFF;
+  margin-top: 2%;
+  height: 100%;
+  border: none;
+  border-radius: 150px;
+}
+
 /* FOUR CARDS */
-.rowofservicescards{padding-left: 4%;}
- .ourservicescard {
+.rowofservicescards {
+  padding-left: 4%;
+}
+
+.ourservicescard {
   width: 25%;
 }
+
 .CardServ {
   width: 100%;
   height: 100%;
@@ -11,10 +35,12 @@
   transition: background-image 0.3s ease-in-out;
 
 }
+
 .CardServ:hover {
   background-image: url(../../Components/services/images/Frame\ 188.png);
 
 }
+
 .servicesicon {
   margin: 15% 20%;
   width: 55%;
@@ -52,8 +78,15 @@
   margin-top: 8% !important;
   padding-inline-start: 0% !important;
 }
-.lisectex{padding-left: 14%;}
-.lifrtex{margin-top: 5% !important;}
+
+.lisectex {
+  padding-left: 14%;
+}
+
+.lifrtex {
+  margin-top: 5% !important;
+}
+
 /* --- ROUND IMG --- */
 
 .cicy {
@@ -78,9 +111,11 @@
 
 
 /* qeastion */
-  .betoo{background-color: #1E4F9E;
+.betoo {
+  background-color: #1E4F9E;
   border-radius: 50%;
-color: white;}
+  color: white;
+}
 
 
 .maindivee {
@@ -114,17 +149,22 @@ color: white;}
   * {
     overflow-x: hidden;
   }
-  .rowofservicescards{ 
-    padding-left: 0%;}
+
+  .rowofservicescards {
+    padding-left: 0%;
+  }
 
   .ourservicescard {
     width: 25%;
   }
-  .coversicon{margin: 15% 6%;
-   
+
+  .coversicon {
+    margin: 15% 6%;
+
   }
 }
 
+@media screen and (min-width: 1441px) {}
 
 /* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
@@ -132,8 +172,26 @@ color: white;}
     overflow-x: hidden;
   }
 
+
   .ourservicescard {
     width: 50%;
   }
+
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  /* first stander section  */
+  .frist2{ margin-top: 5%;
+    text-align: center;
+    width: 80%;
+    font-size:medium; }
+  
+  /* second stander section  */
+  
+.second1{ padding-left: 10%;
+  font-weight: bold;
+  width: 90%;
+}
 
 }

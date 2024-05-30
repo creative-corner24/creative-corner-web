@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component,useEffect } from "react";
 
 import "./services.css";
 import FirstSection from "../../Components/standersection/first";
@@ -7,8 +7,12 @@ import MainFooter from "../../Components/Footer";
 import PreFooter from "../../Components/PreFooter";
 import slid from "../../Components/services/images/picture.png";
 import OurServices from "../../Components/services/ourservices";
+import{scrollToTop} from "../../utils/shared";
 
 function Services() {
+  useEffect(() => {
+    scrollToTop()
+  }, [])
   return (
     <>
       <div>
