@@ -18,7 +18,8 @@ const sliderList = [
   {img: <img src={sllid6} alt='' className="m-4"  width={"88%"}/>  },
 ]
   return (
-        <SliderComponent list={sliderList} slidesPerView768={1} slidesPerView1024={2} spaceBetween1024={20}/>
+    
+        <SliderComponent id={'firstSlider'} list={sliderList} slidesPerView768={1} slidesPerView1024={2} spaceBetween1024={20}/>
   );
 
 

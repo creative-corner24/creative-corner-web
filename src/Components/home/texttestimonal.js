@@ -1,79 +1,35 @@
 import React, { Component } from "react";
-import  { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Virtual, Navigation, Pagination } from "swiper/modules";
 import client1 from "./images/Ellipse 19.png";
 import client2 from "./images/Group 17.png";
 import client3 from "./images/Group 18.png";
 import client4 from "./images/Ellipse 17.png";
 import client5 from "./images/Group 15.png";
 import client6 from "./images/Ellipse 18.png";
+import SliderComponent from "../slider";
 
+const Texttestimonal = () => {
+  const sliderList = [
+    { img: <img src={client1} alt="" className="m-5" /> },
+    { img: <img src={client2} alt="" className="m-5" /> },
+    { img: <img src={client3} alt="" className="m-5" /> },
+    { img: <img src={client4} alt="" className="m-5" /> },
+    { img: <img src={client5} alt="" className="m-5" /> },
+    { img: <img src={client6} alt="" className="m-5" /> },
+  ];
 
-    function Texttestimonal(){
-
-      const [swiperRef, setSwiperRef] = useState(null);
-
-  const appendNumber = useRef(500);
-  const prependNumber = useRef(1);
-    return (
-     <>
-            <h1 className="text-center my-5  fontOtomanopee ">Client Testimonials</h1>
-            <div className=" my-3 ">
-            <Swiper
-          onSwiper={setSwiperRef}
-          slidesPerView={6}
-          centeredSlides={true}
-          spaceBetween={10}
-          loop={true}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Navigation, Pagination]}
-          className=" myswiper"
-        >
-          <SwiperSlide className="my-5">
-          
-            
-          <img src={client1} 
-         />
-    
-      </SwiperSlide>
-      <SwiperSlide className="my-5">
-        
-          <img src={client2} />
-        
-      </SwiperSlide>
-      <SwiperSlide className="my-5">
-        
-          <img src={client3} />
-        
-      </SwiperSlide>
-
-      <SwiperSlide className="my-5">
-        
-          <img src={client4} />
-        
-      </SwiperSlide>
-      <SwiperSlide className="my-5">
-        
-          <img src={client5} />
-        
-      </SwiperSlide>
-      <SwiperSlide className="my-5">
-        
-          <img src={client6} />
-        
-      </SwiperSlide>
-    </Swiper>
-
-            </div>
-     </>
-    );
-  }
-  export default Texttestimonal;
-
+  return (
+    <>
+      <h1 className="text-center my-5  fontOtomanopee ">Client Testimonials</h1>
+      <div className=" my-3 ">
+        <SliderComponent
+          id={"secondSlider"}
+          list={sliderList}
+          slidesPerView768={3}
+          slidesPerView1024={4}
+          spaceBetween1024={30}
+        />
+      </div>
+    </>
+  );
+};
+export default Texttestimonal;

@@ -3,10 +3,11 @@ import { register } from "swiper/element/bundle";
 
 register();
 
-function SliderComponent({ list, slidesPerView768, slidesPerView1024, spaceBetween1024 }) {
+function SliderComponent({id, list, slidesPerView768, slidesPerView1024, spaceBetween1024, loop }) {
+    console.log('sliderList', list)
   useEffect(() => {
     // swiper element
-    const swiperEl = document.querySelector("swiper-container");
+    const swiperEl = document.getElementById(id);
     // swiper parameters
     const swiperParams = {
       navigation: "true",
@@ -25,6 +26,7 @@ function SliderComponent({ list, slidesPerView768, slidesPerView1024, spaceBetwe
           // ...
         },
       },
+      loop: loop || 'true',
     };
 
     // now we need to assign all parameters to Swiper element
@@ -35,7 +37,7 @@ function SliderComponent({ list, slidesPerView768, slidesPerView1024, spaceBetwe
   }, []);
 
   return (
-    <swiper-container init="false">
+    <swiper-container init="false" id={id}>
       {list?.length &&
         list?.map((item) => {
           return <swiper-slide>{item.img}</swiper-slide>;
