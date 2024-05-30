@@ -12,7 +12,7 @@ const AnomationServices = (props) => {
 
         {/* circle img */}
         <div className="col-md-6 cicy">
-          <img className=" circleimo  w-50  m-2" src={props.img} alt="Second slide" />
+          <img className=" circleimo   " src={props.img} alt="Second slide" />
         </div>
 
         <div className="col-md-6">

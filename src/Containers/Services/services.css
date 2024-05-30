@@ -93,10 +93,7 @@
   padding: 10px;
   overflow: hidden;
   /* Hide overflow content */
-  width: 50%;
-  /* Set width to 50% */
   position: relative;
-  /* Required for absolute positioning */
 }
 
 .circleimo {
@@ -162,6 +159,22 @@
     margin: 15% 6%;
 
   }
+  
+  .circleimo {
+    padding-top: 30%;
+    height: 70% !important;
+    width: 80% !important;
+    /* Make the image fill the container */
+    display: block;
+    position: absolute;
+    left: -10%;
+    /* Position the image to the left so only half is visible */
+  }
+  .lifrtex{ 
+    margin: 0 ;
+    padding-top: 3.5%;
+  padding-bottom: 3%;}
+  
 }
 
 @media screen and (min-width: 1441px) {}
@@ -176,6 +189,21 @@
   .ourservicescard {
     width: 50%;
   }
+
+  .circleimo {
+    padding-top: 30%;
+    height: 50% !important;
+    width: 90% !important;
+    /* Make the image fill the container */
+    display: block;
+    position: absolute;
+    left: -10%;
+    /* Position the image to the left so only half is visible */
+  }
+  .lifrtex{ 
+    margin-top: 0;
+    padding-top: 3.5%;
+  padding-bottom: 3%;}
 
 }
 
@@ -199,4 +227,10 @@
   padding-left: 0%;
 }
 
+.circleimo {display: none;}
+
+.lifrtex{ 
+  margin-top: 0;
+  padding-top: 3.5%;
+padding-bottom: 3%;}
 }
