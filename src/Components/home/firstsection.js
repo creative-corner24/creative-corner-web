@@ -133,15 +133,14 @@ Strategy"
 
       <div className=" likecard ">
       
-        <div className="row rowcard ">
-        <div className="position-relative ">
+        <div className="row rowcard  position-relative ">
+      
             <img
               src={free}
               className="position-absolute 
            frree
            "
             />
-          </div>
           <div className="col-md-7 cardcol ">
             <p className="mb-5 Nunito">
               <i className="bi bi-caret-right-fill trian"></i> IF you want to

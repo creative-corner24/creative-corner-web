@@ -25,20 +25,18 @@ function Calender() {
 
   return (
     <>
-      <div className="    row container mainrow">
-     
+      <div className="   position-relative   row  mainroow">
+      <img src={freee} alt="Description of the image" className="FreeCalendr" fluid />
 
-        <div className="row  position-relative   text-center texto">
+
+        <div className="   text-center texto">
           
-        <div className="col-md-11 my-4">
           <h1 className="bi bi-calendar3">
             {" "}
             Schedule a free meeting with our experts
 
           </h1>
           
-          </div>
-          {/* <div className="col-md-1" >   <img src={freee} alt="Description of the image" fluid /></div> */}
         </div>
         <div className="col-md-6 text-center rightb ">
           <p>

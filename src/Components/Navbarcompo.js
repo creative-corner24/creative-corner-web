@@ -40,20 +40,20 @@ function Navbarcompo() {
         >
           <Nav className=" expendmenu   ">
             
-            <Nav.Link as={Link} to="/Home" className="link-light  mx-4   ">
+            <Nav.Link as={Link} to="/Home" className="link-light  mx-4   " onClick={toggleNavbar}>
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/about" className="link-light mx-4 ">
+            <Nav.Link as={Link} to="/about" className="link-light mx-4 "  onClick={toggleNavbar}>
               About us
             </Nav.Link>
-            <Nav.Link as={Link} to="/Services" className="link-light mx-4 ">
+            <Nav.Link as={Link} to="/Services" className="link-light mx-4 "  onClick={toggleNavbar} >
               Services
             </Nav.Link>
-            <Nav.Link as={Link} to="/our-team" className="link-light mx-4  mr-5 ">
+            <Nav.Link as={Link} to="/our-team" className="link-light mx-4  mr-5 "  onClick={toggleNavbar}>
               Our Team
             </Nav.Link>
             {isButtonVisible && (
-          <Button as={Link} to="/Contact" className="  butncolo ">
+          <Button as={Link} to="/Contact" className="  butncolo "    onClick={toggleNavbar}>
             Get in touch
           </Button>
         )}

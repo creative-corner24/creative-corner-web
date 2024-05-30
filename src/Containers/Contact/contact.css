@@ -1,4 +1,4 @@
-.mainrow {
+.mainroow {
   margin: 5%;
 
   background-color: rgba(250, 249, 249, 0.1);
@@ -17,11 +17,11 @@
   padding: 5%;
 }
 
-.freeicon {
-  padding-right: 3.5%;
-  padding-top: 2.5%;
-  width: 15%;
-  height: 100%;
+.FreeCalendr {
+position: absolute;
+top: -7px;
+right: -37px;
+width: 150px;
 
 }
 
