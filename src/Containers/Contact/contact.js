@@ -26,51 +26,17 @@ function Contact() {
 
       
       <div><Calenderr/></div>
-<div className="afterfooter" >
-      <div className="  row mx-3  px-5 container ">
-        <div className="col-md-6" >  
-         <h4 className="mb-3">Contact us</h4>
+      <div className="  ">
+         
+         <h4 className="text-center">Contact us</h4>
          {/* {`mailto:${}`} */}
- <a href="" target="_blank">  <AiTwotoneMail />  info@creative-corner.tech</a>      
+ <a href="" target="_blank" className="text-center">  <AiTwotoneMail />  info@creative-corner.tech</a>      
  
- <p  className="mt-3"> <FaPhoneAlt />
- +973 3314 6789</p>   </div>
-        <div className="col-md-6" >
-
-<h3 className="text-start mb-5 mx-4">Find us on social media</h3>
-
-<div className=" mb-2">
-          <ul className="Foote ml-auto text-primary d-inline-block w-100">
-
-            <li className="footer-item d-inline-block">
-              <i className="bi bi-facebook fa-1x mx-3 mt-4" id="logo" />
-            </li>
-            <li className="footer-item d-inline-block ">
-              <i className="bi bi-twitter fa-1x mx-3 mt-4" id="logo" />
-            </li>
-            <li className="footer-item d-inline-block ">
-              <i className="bi bi-instagram fa-1x mx-2 " id="logo" />
-            </li>
-            <li className="footer-item d-inline-block ">
-              <i className="bi bi-linkedin fa-1x mx-3 mt-4" id="logo" />
-            </li>
-            <li className="footer-item d-inline-block ">
-              <i className="bi bi-youtube fa-1x mx-3 mt-4" id="logo" />
-            </li>
-            <li className="footer-item d-inline-block ">
-              <i className="bi bi-tiktok fa-1x mx-3 " id="logo" />
-            </li>
-            <li className="footer-item d-inline-block ">
-              <i className="bi bi-snapchat fa-1x mx-3 " id="logo" />
-            </li>
-          </ul>
-        </div>
-
-        </div>
+ <p  className="mt-3  text-center "> <FaPhoneAlt />
+ +973 3314 6789</p>  
 
  
 
-      </div>
       </div>
 
 

@@ -31,12 +31,20 @@ function Calender() {
 
         <div className="   text-center texto">
           
-          <h1 className="bi bi-calendar3  clendartitle">
+          <h1 className="bi bi-calendar3  my-5 mx-2 clendartitle">
             {" "}
             Schedule a free meeting with our experts
 
           </h1>
           
+        </div>
+
+        <div className="col-md-6 text-center calennd  ">
+          <p className="my-4">
+            Choose the most convenent day for you and we will contact with you
+            on it.
+          </p>
+          <Calendar onChange={onChange} value={date} />
         </div>
         <div className="col-md-6 text-center rightb ">
           <p>
@@ -72,13 +80,7 @@ function Calender() {
             </Button>
           </Form>
         </div>
-        <div className="col-md-6 text-center calennd  ">
-          <p className="my-4">
-            Choose the most convenent day for you and we will contact with you
-            on it.
-          </p>
-          <Calendar onChange={onChange} value={date} />
-        </div>
+        
 
         <div className="row  text-center">
           <p className=" ">

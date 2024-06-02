@@ -10,16 +10,16 @@ import SliderComponent from "../../Components/slider";
 function Slidersection() {
 
 const sliderList = [
-  {img: <img src={sllid} alt='' className="m-4"  width={"88%"}/>  },
-  {img: <img src={sllid2} alt='' className="m-4"  width={"88%"}/>  },
-  {img: <img src={sllid3} alt='' className="m-4"  width={"88%"}/>  },
-  {img: <img src={sllid4} alt='' className="m-4"  width={"88%"}/>  },
-  {img: <img src={sllid5} alt='' className="m-4"  width={"88%"}/>  },
-  {img: <img src={sllid6} alt='' className="m-4"  width={"88%"}/>  },
+  {img: <img src={sllid} alt='' className="m-4"  width={"80%"}/>  },
+  {img: <img src={sllid2} alt='' className="m-4"  width={"80%"}/>  },
+  {img: <img src={sllid3} alt='' className="m-4"  width={"80%"}/>  },
+  {img: <img src={sllid4} alt='' className="m-4"  width={"80%"}/>  },
+  {img: <img src={sllid5} alt='' className="m-4"  width={"80%"}/>  },
+  {img: <img src={sllid6} alt='' className="m-4"  width={"80%"}/>  },
 ]
   return (
     
-        <SliderComponent id={'firstSlider'} list={sliderList} slidesPerView768={1} slidesPerView1024={2} spaceBetween1024={20}/>
+        <SliderComponent id={'firstSlider'} list={sliderList} slidesPerView768={1} slidesPerView1024={1} spaceBetween1024={10}/>
   );
 
 

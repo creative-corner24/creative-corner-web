@@ -11,6 +11,8 @@
 .calennd {
   padding-top: 3%;
   padding-left: 7%;
+  border-right-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
 }
 
 .rightb {
@@ -31,10 +33,7 @@ width: 150px;
   border-bottom-style: solid;
 }
 
-.rightb {
-  border-right-style: solid;
-  border-color: rgba(0, 0, 0, 0.15);
-}
+
 
 
 .afterfooter {

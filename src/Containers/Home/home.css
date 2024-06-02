@@ -100,6 +100,7 @@
 }
 
 .firstlink {
+  font-weight: bolder;
   text-decoration: none !important;
   color: #1E4F9E;
 }
@@ -436,12 +437,9 @@ margin-top: 1%;
   padding-bottom: 30px;
   text-align: center;
 }
-.firstlink{margin-right: 4%;}
-.footer-item{margin-right: 4%;}
+.footer-item{margin-right: 3%;}
 
-:root {
-  --swiper-theme-color: black  !important;
-}
+
 
 
 
@@ -706,13 +704,7 @@ margin-top: 1%;
   }
   
 
-  /* THIRD PART  */
-  /* .frree {
-    width: 12% !important;
-    position: absolute;
-    left: 99%;
-    transform: translate(-32%, -38%);
-} */
+
 
 }
 
@@ -940,7 +932,7 @@ margin-right: 0%;}
     width: 100%;
     padding: 1% 1%;
     text-align: center;
-    word-break: break-all;
+    /* word-break: break-all; */
     margin: 1% 0%;
   }
 
@@ -966,10 +958,10 @@ margin-right: 0%;}
   }
 
    /* SECOND PART */
- .FIRRS{  
+ .FIRRS{ 
   overflow-x: hidden;
   order: 2;
-  width: 100%;
+  width: 98%;
   height: 100%;
 
   margin-left: .5%;

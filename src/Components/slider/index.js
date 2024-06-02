@@ -3,7 +3,15 @@ import { register } from "swiper/element/bundle";
 
 register();
 
-function SliderComponent({id, list, slidesPerView768, slidesPerView1024, spaceBetween1024, loop }) {
+function SliderComponent({
+  id,
+  list,
+  slidesPerView350,
+  slidesPerView768,
+  slidesPerView1024,
+  spaceBetween1024,
+  loop,
+}) {
   useEffect(() => {
     // swiper element
     const swiperEl = document.getElementById(id);
@@ -12,6 +20,9 @@ function SliderComponent({id, list, slidesPerView768, slidesPerView1024, spaceBe
       navigation: "true",
       pagination: "true",
       breakpoints: {
+        350: { slidesPerView: slidesPerView350,
+
+         },
         768: {
           slidesPerView: slidesPerView768,
         },
@@ -25,7 +36,7 @@ function SliderComponent({id, list, slidesPerView768, slidesPerView1024, spaceBe
           // ...
         },
       },
-      loop: loop || 'true',
+      loop: loop || "true",
     };
 
     // now we need to assign all parameters to Swiper element
