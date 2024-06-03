@@ -9,15 +9,15 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
       <div className="MainFooter">
 
-<div className="text-center my-5">  <img src="../../Assets/01.png"   width="220"
-              height="60"
+<div className="text-center my-4">  <img src="../../Assets/Logo.png"   width="180"
+              height="40"
               className="d-inline-block align-top  logooo"/> </div>
 
         <div className=" foot mb-5">
-        <Link className="firstlink  text-white " to="/Home">Home  </Link>
-          <Link className="firstlink  text-white"  to="/about">About us</Link>
-          <Link className="firstlink  text-white " to="/services">Our Services</Link>
-          <Link className="firstlink  text-white" to="/our-team">Our team</Link>
+        <Link className="secondlink  text-white " to="/Home">Home  </Link>
+          <Link className="secondlink  text-white"  to="/about">About us</Link>
+          <Link className="secondlink  text-white " to="/services">Our Services</Link>
+          <Link className="secondlink  text-white" to="/our-team">Our team</Link>
 
 
         </div>

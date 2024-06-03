@@ -95,6 +95,7 @@
 
 .firstcloum p {
   font-size: 20px;
+  word-break: break-all;
   color: rgba(0, 0, 0, 0.9);
   line-height: 1.7;
 }
@@ -437,6 +438,8 @@ margin-top: 1%;
   padding-bottom: 30px;
   text-align: center;
 }
+.secondlink{ text-decoration: none;
+  margin-right: 2%;}
 .footer-item{margin-right: 3%;}
 
 
@@ -683,6 +686,7 @@ margin-top: 1%;
   }
 
   .firstcloum h2 {
+    width: 98%;
     margin-top: 12px;
     word-break: break-all;
     line-height: 1.6;

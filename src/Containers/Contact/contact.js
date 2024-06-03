@@ -26,7 +26,7 @@ function Contact() {
 
       
       <div><Calenderr/></div>
-      <div className="  ">
+      <div className=" fortestdisplay ">
          
          <h4 className="text-center">Contact us</h4>
          {/* {`mailto:${}`} */}
@@ -35,12 +35,7 @@ function Contact() {
  <p  className="mt-3  text-center "> <FaPhoneAlt />
  +973 3314 6789</p>  
 
- 
-
       </div>
-
-
-
 
       <div>
         <MainFooter />

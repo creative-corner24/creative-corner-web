@@ -10,20 +10,30 @@
 
 .calennd {
   padding-top: 3%;
-  padding-left: 7%;
   border-right-style: solid;
   border-color: rgba(0, 0, 0, 0.15);
+}
+
+.react-calendar {
+  align-items: center;
+  margin: 1% 15%;
+  width: 70% !important;
 }
 
 .rightb {
   padding: 5%;
 }
 
+.clendartitle {
+  font-size: xx-large;
+  font-weight: normal;
+}
+
 .FreeCalendr {
-position: absolute;
-top: -7px;
-right: -37px;
-width: 150px;
+  position: absolute;
+  top: -7px;
+  right: -37px;
+  width: 150px;
 
 }
 
@@ -47,6 +57,16 @@ width: 150px;
   padding-left: 100% !important;
 }
 
+.fortestdisplay {
+  display: grid;
+  font-size: x-large;
+}
+
+
+
+/* MEDIAQUAIRY */
+
+
 
 
 
@@ -56,33 +76,68 @@ width: 150px;
     overflow-x: hidden;
   }
 
-/* first stander section  */
-.frist1{font-weight: bold;}
-  .frist2{ margin-top: 5%;
-    font-size:medium;}
+  /* first stander section  */
+  .frist1 {
+    font-weight: bold;
+  }
+
+  .frist2 {
+    margin-top: 5%;
+    font-size: medium;
+  }
 
 }
 
+.clendartitle {
+  font-size: x-large;
+}
+
+.react-calendar {
+  margin: 1% 5%;
+  width: 90% !important;
+}
 
 
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 700px) {
   .mainroow {
-    
+
     padding-left: 0%;
   }
+
   .rightb {
+    order: 1;
     border-right-style: none;
   }
 
+  .calennd {
+    order: 2;
+    border-right-style: none;
+  }
 
-/* first stander section  */
-.frist1{font-weight: bold;
-font-size: large;}
-  .frist2{ margin-top: 5%;
-    font-size:small;}
- 
-    .clendartitle{ width: 85%;
-      padding-top: 5%;
-      font-size: large;}
+  .clendartitle {
+    width: 90%;
+    font-size: x-large;
+  }
+
+  .react-calendar {
+    margin: 1% 5%;
+    width: 90% !important;
+  }
+
+  .secondrowofcalender {
+    order: 3;
+  }
+
+  /* first stander section  */
+  .frist1 {
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .frist2 {
+    margin-top: 5%;
+    font-size: small;
+  }
+
 }

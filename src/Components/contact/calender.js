@@ -26,21 +26,21 @@ function Calender() {
   return (
     <>
       <div className="   position-relative   row  mainroow">
-      <img src={freee} alt="Description of the image" className="FreeCalendr" fluid />
+      <img src={freee} alt="" className="FreeCalendr" fluid />
 
 
         <div className="   text-center texto">
           
-          <h1 className="bi bi-calendar3  my-5 mx-2 clendartitle">
+          <p className="bi bi-calendar3  my-4 clendartitle">
             {" "}
-            Schedule a free meeting with our experts
+           &nbsp; SCHEDULE A FREE MEETING WITH OUR EXPERTS 
 
-          </h1>
+          </p>
           
         </div>
 
-        <div className="col-md-6 text-center calennd  ">
-          <p className="my-4">
+        <div className="col-md-6 calennd  ">
+          <p className="my-4   text-center">
             Choose the most convenent day for you and we will contact with you
             on it.
           </p>
@@ -75,17 +75,16 @@ function Calender() {
               <Form.Control as="textarea" rows={3} placeholder="Massage" />
             </Form.Group>
 
-            <Button variant="primary" type="submit" className="w-100">
+            <Button variant="primary" type="submit" className="w-100 py-3 fw-bold">
               Submit
             </Button>
           </Form>
         </div>
-        
 
-        <div className="row  text-center">
-          <p className=" ">
+        <div className="row secondrowofcalender my-4  text-center">
+          <p className="">
             One of our experts will contact with you before{" "}
-            <h5 className="text-primary"> {formatDate(date)}</h5>
+            <h4 className="text-primary"> {formatDate(date)}</h4>
           </p>
         </div>
       </div>
