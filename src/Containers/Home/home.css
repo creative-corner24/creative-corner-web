@@ -82,20 +82,17 @@
   width: 45%;
   padding: 2% 3%;
   text-align: center;
-  word-break: break-all;
   margin: 3% 0%;
 }
 
 .firstcloum h2 {
   margin-top: 12px;
-  word-break: break-all;
   width: 70%;
   line-height: 1.6;
 }
 
 .firstcloum p {
   font-size: 20px;
-  word-break: break-all;
   color: rgba(0, 0, 0, 0.9);
   line-height: 1.7;
 }
@@ -300,7 +297,8 @@ margin-bottom: 2%;
   border-right-width: 1px;
   border-color: #062e3f;
 }
-
+.cardcol p {  margin-bottom: 10% !important;
+}
 .trian {
   color: #419bc4;
   font-weight: bold;
@@ -317,9 +315,10 @@ margin-bottom: 2%;
 }
 
 .cardico {
-  width: 25%;
-margin-top: 3%;
-margin-left: 36%;}
+  width: 28%;
+  margin-top: 3%;
+  margin-left: 35%;
+}
 
 .cardtex {
   margin: 2% 10%;
@@ -479,7 +478,6 @@ margin-top: 1%;
     width: 49%;
     padding: 0% 3%;
     text-align: center;
-    word-break: break-all;
     margin-bottom: 1%;
   }
 
@@ -688,7 +686,6 @@ margin-top: 1%;
   .firstcloum h2 {
     width: 98%;
     margin-top: 12px;
-    word-break: break-all;
     line-height: 1.6;
   }
 
@@ -798,7 +795,6 @@ margin-top: 1%;
     width: 45%;
     padding: 1% 2%;
     text-align: center;
-    word-break: break-all;
     margin: 1% 0%;
   }
 
@@ -862,6 +858,7 @@ margin-right: 0%;}
 @media (max-width: 767px) {
 
   /* NavBar */
+  /* *{overflow-y: hidden;} */
   .logoo {
     padding-left: 4%;
     width: 80%;
@@ -931,6 +928,12 @@ margin-right: 0%;}
     padding: 1% 7%;
   }
 
+  .mainnrow {
+    height: 100%;
+  padding-top: 6%;
+  padding-left: 6%;
+  padding-right: 4%;}
+
   .firstcloum {
     order: 2;
     width: 100%;
@@ -943,7 +946,6 @@ margin-right: 0%;}
   .firstcloum h2 {
     font-size: small;
     margin-top: 12px;
-    word-break: break-all;
     width: 42%;
     line-height: 1.6;
   }
@@ -961,6 +963,11 @@ margin-right: 0%;}
       100%;
   }
 
+  .cardbutton {
+      width: 95%;
+    }
+
+.vediocaption{ overflow-y: hidden;}
    /* SECOND PART */
  .FIRRS{ 
   overflow-x: hidden;
@@ -990,21 +997,25 @@ padding-bottom: 8%;}
 .rdercol{order: 2;}
 .rdercol2{order: 1;}
 .cardtex { font-size: large;
+    margin: 2% 7%;
 width: 85%;}
 .cardbuttton { font-size: medium; }
 .LARGESIZE{display: none;}
-.OTHERDEVICE{margin-left: 9%;
+.OTHERDEVICE{margin-left: 5%;
   margin-bottom: 4%;
   border-radius: 10px;
   display: block;
-width: 80%;}
+width: 90%;}
  .ourser{margin-top: 2%;
   margin-bottom: 2%;}
 
 .cardcol{ 
-  padding-top: 10%;
-  border-right: none;}
-
+  padding-top: 12%;
+  border-right: none;
+font-size: medium;
+}
+.cardcol p {  margin-bottom: 5% !important;
+}
  
   .roundimg {
   margin-left: 30%;
