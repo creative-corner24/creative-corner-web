@@ -140,6 +140,8 @@ list-style-type: disc !important;
 @media screen and (min-device-width: 768px) 
 and (max-device-width: 1023px) {
   *{overflow-x: hidden;}
+  .secondsection{
+    border-radius: 100px !important;}
   .flwla2{padding-top: 0%;
     padding-left: 3%;}
     .whyusbackground{
@@ -175,6 +177,8 @@ and (max-device-width: 1023px) {
   .frist2{ font-size:medium;}
   
   /* second stander section  */
+.secondsection{
+border-radius: 100px !important;}
   .mainsecond{text-align: center;
 padding-top: 15%;  }
   

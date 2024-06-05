@@ -2,7 +2,7 @@ import React, { Component } from "react";
 function Primarysection() {
   return (
     <div className="  Primarysection  ">
-      <div className="container py-3 ">
+      <div className="container p-4 ">
       <h1 className="  Result fontOtomanopee  pt-5">Result you can count on</h1>
       <h4 className="text-light ">
         Here we should put our last successful works

@@ -10,16 +10,16 @@ import SliderComponent from "../../Components/slider";
 function Slidersection() {
 
 const sliderList = [
-  {img: <img src={sllid} alt='' className="ms-4"  width={"60%"}/>  },
-  {img: <img src={sllid2} alt='' className="ms-4"  width={"60%"}/>  },
-  {img: <img src={sllid3} alt='' className="ms-4"  width={"60%"}/>  },
-  {img: <img src={sllid4} alt='' className="ms-4"  width={"60%"}/>  },
-  {img: <img src={sllid5} alt='' className="ms-4"  width={"60%"}/>  },
-  {img: <img src={sllid6} alt='' className="ms-4"  width={"60%"}/>  },
+  {img: <img src={sllid} alt='' className="ms-4 d-flex align-items-center"  width={"50%"}/>  },
+  {img: <img src={sllid2} alt='' className="ms-4 d-flex align-items-center"  width={"50%"}/>  },
+  {img: <img src={sllid3} alt='' className="ms-4 d-flex align-items-center"  width={"50%"}/>  },
+  {img: <img src={sllid4} alt='' className="ms-4 d-flex align-items-center"  width={"50%"}/>  },
+  {img: <img src={sllid5} alt='' className="ms-4 d-flex align-items-center"  width={"50%"}/>  },
+  {img: <img src={sllid6} alt='' className="ms-4 d-flex align-items-center"  width={"50%"}/>  },
 ]
   return (
     
-        <SliderComponent id={'firstSlider'} list={sliderList} slidesPerView350={1}  slidesPerView768={1} slidesPerView1024={1} spaceBetween1024={5}/>
+        <SliderComponent id={'firstSlider'} list={sliderList} slidesPerView350={1}  slidesPerView768={1} slidesPerView1024={1} spaceBetween1024={0}/>
   );
 
 

@@ -1006,10 +1006,14 @@ width: 85%;}
   border-radius: 10px;
   display: block;
 width: 90%;}
- .ourser{margin-top: 2%;
+ .ourser{ font-size: larger;
+  margin-top: 2%;
   margin-bottom: 2%;}
 
 .cardcol{ 
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin-bottom: 25px;
   padding-top: 12%;
   border-right: none;
 font-size: medium;
