@@ -247,8 +247,8 @@ margin-bottom: 2%;
   background-color: rgb(240, 248, 255, 0.6);
   /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(170, 155, 155)); */
   border-radius: 50px;
-
 }
+.cardbutton:hover{background-color: white;}
 
 .butonic {
   font-weight: bolder;
@@ -271,10 +271,10 @@ margin-bottom: 2%;
   width: 40%;
   color: rgb(252, 246, 246);
   background-color: #3977E8;
-  /* background-image: linear-gradient(to right, #1B88B7, #4BAAD2); */
-
   border-radius: 50px;
 }
+.partbutton:hover{background-color: #1E4F9E;
+color: white;}
  /* THIRD PART */
 
 .likecard {margin: 3% 5% !important;
@@ -342,6 +342,9 @@ margin-top: 1%;
 
   border-radius: 50px;
 }
+.cardbuttton:hover{background-color: white;}
+
+
 .butonicc {
   font-weight: bolder;
   padding: 5px 5px;
@@ -373,9 +376,13 @@ margin-top: 1%;
 
 /* client */
 
+.ImgOfFirstSlider{
+  margin-left: 22% !important;
+padding-bottom: 5%;}
 
-
-
+.ImgOfSecondSlider{margin-left: 7%;
+  margin-right: 10%;
+padding: 8%;}
 
 
 /* Reviewss slider */
@@ -524,6 +531,8 @@ padding-bottom: 8%;
   margin-left: 12%;
   display: block;
 width: 75%;}
+.OTHERDEVICE:hover{background-color: #1E4F9E;
+  color: white;}
 /* THIRD PART */
 
 .likecard {margin: 3% 5% !important;
@@ -599,29 +608,8 @@ margin-top: 1%;
   border-radius:40px;
 }
 
-/* .frree {
-  width: 13% !important;
-    left: 97% !important;
-  transform: translate(-61%, -3%);
-  position: relative;
-} */
-
-.myswiper1 {
-  width: 100%;
-}
-
-.sllidr1 {
-  width: 90% !important;
-  /* height: auto;
-  display: block; */
-}
 
 
-/* .sllidr1{width: 300px;}
-.swiper-wrapper{transition-duration: 0ms !important;
-  transition-delay: 0ms;
-  transform: translate3d(-50px, 0px, 0px) !important;
-  } */
 }
 
 
@@ -837,6 +825,8 @@ margin-top: 1%;
   margin-left: 13%;
   display: block;
 width: 75%;}
+.OTHERDEVICE:hover{background-color: #1E4F9E;
+  color: white;}
 .cardim{margin-top: 50%;
 margin-left: 0%;
 margin-right: 0%;}
@@ -1006,6 +996,8 @@ width: 85%;}
   border-radius: 10px;
   display: block;
 width: 90%;}
+.OTHERDEVICE:hover{background-color: #1E4F9E;
+  color: white;}
  .ourser{ font-size: larger;
   margin-top: 2%;
   margin-bottom: 2%;}
@@ -1025,6 +1017,10 @@ font-size: medium;
   margin-left: 30%;
 }
 
+.ImgOfFirstSlider{
+  margin-left: 25% !important;
+padding-bottom: 7%;
+padding-top: 7%;}
 
 
   .homebutton:hover {
